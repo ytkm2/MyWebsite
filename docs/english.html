@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Yuta Kawamura</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Yuta Kawamura</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
+</li>
+<li>
+  <a href="works.html">Works</a>
+</li>
+<li>
+  <a href="materials.html">Materials</a>
+</li>
+<li>
+  <a href="links.html">Links</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="english.html">English</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Yuta Kawamura</h1>
+
+</div>
+
+
+<div id="profile" class="section level2">
+<h2>Profile</h2>
+<p>Name: Yuta Kawamura (ph.D. student)</p>
+<p>Affiliation: Graduate School of Education, Kyoto University</p>
+<p>E-mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp</p>
+<p>Research interests: Altruism, Reputation, Helping Behavior etc.</p>
+<p><a href="https://www.researchgate.net/profile/Yuta_Kawamura">ResearchGate</a></p>
+<p><a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&amp;hl=ja&amp;oi=ao">Google Scholar Citations</a> <br/><br/></p>
+</div>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p>2016 Kyoto University, M.A. (education)</p>
+<p>2014 Kyoto University, B.A. (education) <br/><br/></p>
+</div>
+<div id="professional-experience" class="section level2">
+<h2>Professional Experience</h2>
+<p>2016.4 - 2019.3 Research Fellow (DC1), Japan Society for the Promotion of Sciences <br/><br/></p>
+<div id="ta-ra-oa-and-part-time-lecturer" class="section level3">
+<h3>TA, RA, OA, and Part-time Lecturer</h3>
+<p>2018.4 - 2019.3 Part-time Lecturer (Research Methods for the Studies of Human Behaviors), The University of Shiga Prefecture</p>
+<p>2015.1 - 2015.3 Office Assistant, Graduate School of Education, Kyoto University</p>
+<p>2014.6 - 2017.3 Teaching Assistant, Academic Center for Computing and Media Studies, Kyoto University</p>
+<p>2014.4 - 2014.9 Teaching Assistant, Horikawa High School</p>
+<p>2014.4 - 2019.3 Teaching Assistant, Graduate School of Education, Kyoto University</p>
+<p>2013.4 - 2013.11, 2015.6-2016.3 Office Assistant, Kokoro Research Center, Kyoto University <br/><br/></p>
+</div>
+</div>
+<div id="fellowship" class="section level2">
+<h2>Fellowship</h2>
+<p>2016.4 - 2019.3 Doctoral Course Fellowship, Japan Society for the Promotion of Science (2,800,000 yen)</p>
+<p>2015.4 - 2016.3 Research Grant, Kyoto University Design School - Collaborative Graduate Program in Design (1,200,000yen)</p>
+<p>2014.10 - 2015.3 Research Grant, Kyoto University Design School - Collaborative Graduate Program in Design (600,000yen) <br/><br/></p>
+</div>
+<div id="awards" class="section level2">
+<h2>Awards</h2>
+<p>2016 Japanese Group Dynamics Association, Distinguished Presentation Award</p>
+<p>2015 Society for Personality and Social Psychology, Graduate Travel Award ($ 500)</p>
+<p>2014 Encouraging Prize for Young Researchers, Japanese Society for Social Psychology (100,000 yen) <br/><br/></p>
+</div>
+<div id="professional-membership" class="section level2">
+<h2>Professional Membership</h2>
+<p>Society for Personality and Social Psychology</p>
+<p>Japanese Psychological Association</p>
+<p>Japanese Society of Social Psychology</p>
+<p>Japanese Group Dynamics Association</p>
+<p>Human Behavior &amp; Evolution Society of Japan <br/><br/></p>
+</div>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<div id="journal-articles-peer-reviewed-articles" class="section level3">
+<h3>Journal Articles (Peer-Reviewed Articles)</h3>
+<ol style="list-style-type: decimal">
+<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., &amp; Yoshikawa, S. (in press). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology.</p></li>
+<li><p>Ichimura, K., <u>Kawamura, Y.</u>, Takahashi, Y., Kusumi, T. (2018). Relationships between Environmental Factors of the Learning Commons and Creativity Task Performance. Japanese Journal of Educational Technology, 42(1), 55-64. doi: <a href="https://doi.org/10.15077/jjet.42015">10.15077/jjet.42015</a> (in Japanese with English Abstract)</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between rejection avoidance and altruism is moderated by social norms. Personality and Individual Differences, 129, 24-27. doi: <a href="https://doi.org/10.1016/j.paid.2018.02.038">10.1016/j.paid.2018.02.038</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two types of reputational concern and altruistic behavior in daily life. Personality and Individual Differences, 121, 19-24. doi: <a href="https://doi.org/10.1016/j.paid.2017.09.003">10.1016/j.paid.2017.09.003</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed to men who help young women: Signaling function of male altruism. Letters on Evolutionary Behavioral Science, 2, 45-48. doi: <a href="https://doi.org/10.5178/lebs.2017.64">10.5178/lebs.2017.64</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect of watching eyes on donation. Evolution and Human Behavior, 38, 659-666. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2017.05.003">10.1016/j.evolhumbehav.2017.05.003</a></p></li>
+<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, Davis, M. H., &amp; Nomura, M. (2017). Development of a Japanese version of the Interpersonal Reactivity Index. Japanese Journal of Psychology, 88(1), 61-71. doi: <a href="https://doi.org/10.4992/jjpsy.88.15218">10.4992/jjpsy.88.15218</a> (in Japanese with English Abstract)</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015). The effects of charity advertising on donations and donors’ explicit and implicit evaluations of recipients. Japanese Journal of Psychology, 86 (1), 21-31. doi: <a href="https://doi.org/10.4992/jjpsy.86.14021">10.4992/jjpsy.86.14021</a> (in Japanese with English Abstract) <br/><br/></p></li>
+</ol>
+</div>
+<div id="journal-articles-non-peer-reviewed-articles" class="section level3">
+<h3>Journal Articles (Non Peer-Reviewed Articles)</h3>
+<p>None <br/><br/></p>
+</div>
+<div id="presentations-at-international-conferences" class="section level3">
+<h3>Presentations (at International Conferences)</h3>
+<ol style="list-style-type: decimal">
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients’ Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.</p></li>
+<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, &amp; Nomura, M. (2016, 7). Relationships between mindfulness and empathy. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of reputational concerns on altruistic behavior. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30. (granted SPSP Student Travel Award)</p></li>
+<li><p>Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>, Hiraoka, D., &amp; Nomura, M. (2016, 1). Domain specific effects of negative emotions on lateral prefrontal cortex activity during inference of others’ mind. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in the evaluation of men’s altruistic behavior. The 14th Justice and Morality Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.</p></li>
+<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N., <u>Kawamura, Y.</u>, &amp; Yoshikawa, S. (2015, 2). Farming, but not fishing, cultivates shared culture within a community. The 10th Cultural Psychology Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26. <br/><br/></p></li>
+</ol>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

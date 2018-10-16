@@ -1,0 +1,105 @@
+---
+title: "Publication"
+output: html_document
+---
+
+論文の必要な方はkawamura.yuta.83c[at]st.kyoto-u.ac.jpまでご連絡ください。
+<br/><br/>
+
+##  {.tabset}
+
+
+### 論文 (査読有)
+
+1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (in press). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology.
+
+1. 市村賢士郎・<u>河村悠太</u>・高橋雄介・楠見孝 (2018). ラーニングコモンズの環境要因と創造性課題の成績との関連　日本教育工学会論文誌, 42(1), 55-64. doi: [10.15077/jjet.42015](https://doi.org/10.15077/jjet.42015)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between rejection avoidance and altruism is moderated by social norms. Personality and Individual Differences, 129, 24-27. doi: [10.1016/j.paid.2018.02.038](https://doi.org/10.1016/j.paid.2018.02.038)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two types of reputational concern and altruistic behavior in daily life. Personality and Individual Differences, 121, 19-24. doi: [10.1016/j.paid.2017.09.003](https://doi.org/10.1016/j.paid.2017.09.003)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed to men who help young women: Signaling function of male altruism. Letters on Evolutionary Behavioral Science, 2, 45-48. doi: [10.5178/lebs.2017.64](https://doi.org/10.5178/lebs.2017.64)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect of watching eyes on donation. Evolution and Human Behavior, 38, 659-666. doi: [10.1016/j.evolhumbehav.2017.05.003](https://doi.org/10.1016/j.evolhumbehav.2017.05.003)
+
+1. 日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・Davis, Mark H.・野村理朗 (2017).  日本語版対人反応性指標の作成　心理学研究, 88(1), 61-71. doi: [10.4992/jjpsy.88.15218](https://doi.org/10.4992/jjpsy.88.15218)
+
+1. <u>河村悠太</u>・楠見孝 (2015). 募金広告の描写が援助対象への顕在的・潜在的評価及び寄付行動に与える影響. 心理学研究, 86 (1), 21-31. doi: [10.4992/jjpsy.86.14021](https://doi.org/10.4992/jjpsy.86.14021)
+<br/><br/>
+
+### 論文 (査読無)
+なし
+<br/><br/>
+
+### 学会発表 (国際)
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients' Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.
+
+1. Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, & Nomura, M. (2016, 7). Relationships between mindfulness and empathy. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of reputational concerns on altruistic behavior. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30. (granted SPSP Student Travel Award)
+
+1. Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>, Hiraoka, D., & Nomura, M. (2016, 1). Domain specific effects of negative emotions on lateral prefrontal cortex activity during inference of others’ mind. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30.
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in the evaluation of men's altruistic behavior. The 14th Justice and Morality Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.
+
+1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N., <u>Kawamura, Y.</u>, & Yoshikawa, S. (2015, 2). Farming, but not fishing, cultivates shared culture within a community. The 10th Cultural Psychology Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.
+<br/><br/>
+
+### 学会発表 (国内)
+1. 市村賢士郎・<u>河村悠太</u> (2018). 大学における自己調整学習の経験と社会的スキルとの関連. 日本教育工学会第83回大会, 仙台, 2018年9月28日-9月30日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2018). 過剰な利他主義者は評判を獲得できるか (2)　 －社会的規範の調整効果－. 日本心理学会第83回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)
+
+1. 市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝 (2018). 仕事における目標・動機づけが働きがいに及ぼす影響　－ブルーカラーとホワイトカラーの比較－. 日本心理学会第83回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2018). 過剰な利他主義者は評判を獲得できるか (3)　 －社会的規範の日米文化差に着目して－. 日本グループ・ダイナミックス学会第65回大会, 神戸, 2018年9月8日-9月9日. (口頭発表)
+
+1. <u>河村悠太</u>・楠見孝 (2018). 規範の厳格さと教室秩序の関連　 －PISA2015年調査・社会調査データの二次分析による検討－. 日本社会心理学会第59回大会, 大阪, 2018年8月28日-8月29日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2017). 過剰な利他主義者は評判を獲得できるか (1)　 －シナリオ実験に基づく検討－. 日本社会心理学会第58回大会, 広島, 2017年10月28日-10月29日. (ポスター発表)
+
+1. <u>河村悠太</u>・石黒翔・西端和志・星野春香・山下環奈・渡邊智也・楠見孝 (2017). 日本語版道徳アイデンティティ尺度作成と妥当性の検討. 日本心理学会第81回大会, 福岡, 2017年9月20日-22日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2016). 「他者の目」が利他行動を促進するとき　－社会的規範の調整効果－. 日本グループ・ダイナミックス学会第63回大会, 福岡, 2016年10月9日-10日. (ポスター発表, 優秀学会発表賞)
+
+1. 市村賢士郎・<u>河村悠太</u>・楠見孝 (2016). 学習空間と空間情報が創造性に及ぼす影響　－ラーニングコモンズは創造性を高めるか－. 日本教育心理学会第58回総会, 香川, 2016年10月8日-10日. (ポスター発表)
+
+1. 日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・野村理朗 (2016). 日本語版対人反応性指標の性別による測定不変性の検討. 日本社会心理学会第57回大会, 兵庫, 2016年9月17日-18日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2015). 日常の利他行動に賞賛獲得・拒否回避欲求が及ぼす影響. 日本社会心理学会第56回大会, 東京, 2015年10月31日-11月1日. (口頭発表)
+
+1. 日道俊之・藤田弥世・枡田恵・<u>河村悠太</u>・平岡大樹・野村理朗 (2015). 他者の心的状態の推測に対する不快感情の効果の領域固有性 －近赤外分光法を用いた認知神経科学的検討－．日本社会心理学会第56回大会, 東京, 2015年10月31日-11月1日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2015). 利他性の推論に援助者・被援助者の性別が及ぼす影響. 日本心理学会第79回大会, 名古屋, 2015年9月22日-24日. (ポスター発表)
+
+1. 日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・Mark H. Davis・野村理朗 (2015). Development of the Interpersonal Reactivity Index in Japanese. 日本心理学会第79回大会, 名古屋, 2015年9月22日-24日. (ポスター発表)
+
+1. 後藤崇志・市村賢士郎・岡隆之介・<u>河村悠太</u>・楠見孝 (2015). ジェンダーステレオタイプによる性格特性語の虚再認 －社会的認知の教材作成に向けた予備的検討－. 日本教育心理学会第57回総会, 新潟, 2015年8月26日-28日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2014). 募金広告の性質が援助対象への印象及び寄付行動に及ぼす影響 (2)　－直観的推論との関連－. 日本心理学会第78回大会, 京都, 2014年9月10日-12日. (ポスター発表)
+
+1. <u>河村悠太</u>・楠見孝 (2014). 募金広告の性質が援助対象への印象及び寄付行動に及ぼす影響 (1)　－援助者の共感的関心の調整効果－. 日本社会心理学会第55回大会, 北海道, 2014年7月26日-27日. (ポスター発表)
+
+1. 日道俊之・枡田恵・<u>河村悠太</u>・平岡大樹・野村理朗 (2014)．心の理論に対する視点取得傾向及び心的ストレスの影響．日本社会心理学会第55回大会, 北海道, 2014年7月26日-27日. (ポスター発表)
+<br/><br/>
+
+### 研究会等
+1. <u>河村悠太</u> (2018). 「他者の目」は利他行動を促進するのか. 第34回広島社会心理学研究会, 広島大学, 2018年6月9日. (口頭発表)
+
+1. <u>Kawamura, Y.</u> (2017). The effect of reputational concerns on altruistic behavior in daily life. Leading Graduate Schools Forum 2017, Nagoya, Japan, October 20.
+
+1. <u>河村悠太</u> (2017). 『他者の目』が利他行動を促進するとき　－社会的規範の調整効果－. 心の先端研究ユニットコロキアム, 京都大学, 2017年6月27日. (口頭発表).
+
+1. <u>河村悠太</u> (2016). The effect of reputational concerns on altruistic behavior. 心の先端研究ユニット「若手研究者交流大会」, 京都大学, 2016年6月11日. (ポスター発表).
+
+1. 市村賢士郎・伊川美保・<u>河村悠太</u>・Arseny Tolmachev・長見祐暉・高橋雄介・楠見孝 (2015). ラーニングコモンズにおける学習環境をデザインする. 第21回大学教育研究フォーラム, 京都, 2015年3月13日-14日. (ポスター発表)
+<br/><br/>
+
+### その他
+1. 京都大学 研究報告「2種類の評判への関心と日常の利他行動の関連 －周りから好かれたい人、嫌われたくない人ほど人助けをよくするか－」2017年9月27日. [link](http://www.kyoto-u.ac.jp/ja/research/research_results/2017/170915_1.html)
+<br/><br/>
+
+1. 京都大学教育学研究科 教育認知心理学講座 「大学院生の声 講座紹介」2015年5月27日. [link](http://cogpsy.educ.kyoto-u.ac.jp/inside/index.html#article05)

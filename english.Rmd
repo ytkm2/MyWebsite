@@ -1,0 +1,121 @@
+---
+title: "Yuta Kawamura"
+output: html_document
+---
+
+## Profile
+
+Name: Yuta Kawamura (ph.D. student)
+
+Affiliation: Graduate School of Education, Kyoto University
+
+E-mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp
+
+Research interests: Altruism, Reputation, Helping Behavior etc.
+
+[ResearchGate](https://www.researchgate.net/profile/Yuta_Kawamura)
+
+[Google Scholar Citations](https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao)
+<br/><br/>
+
+## Education
+
+2016 Kyoto University, M.A. (education)
+
+2014 Kyoto University, B.A. (education)
+<br/><br/>
+
+## Professional Experience
+
+2016.4 - 2019.3 Research Fellow (DC1), Japan Society for the Promotion of Sciences
+<br/><br/>
+
+### TA, RA, OA, and Part-time Lecturer
+
+2018.4 - 2019.3 Part-time Lecturer (Research Methods for the Studies of Human Behaviors), The University of Shiga Prefecture
+
+2015.1 - 2015.3 Office Assistant, Graduate School of Education, Kyoto University
+
+2014.6 - 2017.3 Teaching Assistant, Academic Center for Computing and Media Studies, Kyoto University 
+
+2014.4 - 2014.9 Teaching Assistant, Horikawa High School
+
+2014.4 - 2019.3 Teaching Assistant, Graduate School of Education, Kyoto University
+
+2013.4 - 2013.11, 2015.6-2016.3 Office Assistant, Kokoro Research Center, Kyoto University 
+<br/><br/>
+
+## Fellowship
+2016.4 - 2019.3 Doctoral Course Fellowship, Japan Society for the Promotion of Science (2,800,000 yen)
+
+2015.4 - 2016.3 Research Grant, Kyoto University Design School - Collaborative Graduate Program in Design (1,200,000yen)
+
+2014.10 - 2015.3 Research Grant, Kyoto University Design School - Collaborative Graduate Program in Design (600,000yen)
+<br/><br/>
+
+## Awards
+2016 Japanese Group Dynamics Association, Distinguished Presentation Award
+
+2015 Society for Personality and Social Psychology, Graduate Travel Award ($ 500)
+
+2014 Encouraging Prize for Young Researchers, Japanese Society for Social Psychology (100,000 yen)
+<br/><br/>
+
+## Professional Membership
+
+Society for Personality and Social Psychology
+
+Japanese Psychological Association
+
+Japanese Society of Social Psychology
+
+Japanese Group Dynamics Association
+
+Human Behavior & Evolution Society of Japan
+<br/><br/>
+
+## Publications
+
+### Journal Articles (Peer-Reviewed Articles)
+1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (in press). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology.
+
+1. Ichimura, K., <u>Kawamura, Y.</u>, Takahashi, Y., Kusumi, T. (2018). Relationships
+between Environmental Factors of the Learning
+Commons and Creativity Task Performance. Japanese Journal of Educational Technology, 42(1), 55-64. doi: [10.15077/jjet.42015](https://doi.org/10.15077/jjet.42015) (in Japanese with English Abstract)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between rejection avoidance and altruism is moderated by social norms. Personality and Individual Differences, 129, 24-27. doi: [10.1016/j.paid.2018.02.038](https://doi.org/10.1016/j.paid.2018.02.038)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two types of reputational concern and altruistic behavior in daily life. Personality and Individual Differences, 121, 19-24. doi: [10.1016/j.paid.2017.09.003](https://doi.org/10.1016/j.paid.2017.09.003)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed to men who help young women: Signaling function of male altruism. Letters on Evolutionary Behavioral Science, 2, 45-48. doi: [10.5178/lebs.2017.64](https://doi.org/10.5178/lebs.2017.64)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect of watching eyes on donation. Evolution and Human Behavior, 38, 659-666. doi: [10.1016/j.evolhumbehav.2017.05.003](https://doi.org/10.1016/j.evolhumbehav.2017.05.003)
+
+1. Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, Davis, M. H., & Nomura, M. (2017).  Development of a Japanese version of the Interpersonal Reactivity Index. Japanese Journal of Psychology, 88(1), 61-71. doi: [10.4992/jjpsy.88.15218](https://doi.org/10.4992/jjpsy.88.15218) (in Japanese with English Abstract)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2015). The effects of charity advertising on donations and donors’ explicit and implicit evaluations of recipients. Japanese Journal of Psychology, 86 (1), 21-31. doi: [10.4992/jjpsy.86.14021](https://doi.org/10.4992/jjpsy.86.14021) (in Japanese with English Abstract)
+<br/><br/>
+
+### Journal Articles (Non Peer-Reviewed Articles)
+
+None
+<br/><br/>
+
+### Presentations (at International Conferences)
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients' Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.
+
+1. Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, & Nomura, M. (2016, 7). Relationships between mindfulness and empathy. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of reputational concerns on altruistic behavior. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30. (granted SPSP Student Travel Award)
+
+1. Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>, Hiraoka, D., & Nomura, M. (2016, 1). Domain specific effects of negative emotions on lateral prefrontal cortex activity during inference of others’ mind. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30.
+
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in the evaluation of men's altruistic behavior. The 14th Justice and Morality Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.
+
+1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N., <u>Kawamura, Y.</u>, & Yoshikawa, S. (2015, 2). Farming, but not fishing, cultivates shared culture within a community. The 10th Cultural Psychology Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.
+<br/><br/>
+
+

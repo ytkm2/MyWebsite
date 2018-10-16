@@ -1,0 +1,28 @@
+name: "personal-website"
+output_dir: "docs"
+navbar:
+  title: "Yuta Kawamura"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About Me"
+      href: about.html
+    - text: "Works"
+      href: works.html
+    - text: "Materials"
+      href: materials.html
+    - text: "Links"
+      href: links.html
+  right:
+    - text: "English"
+      href: english.html
+output:
+  html_document:
+#    toc: true
+#    toc_depth: 3
+#    toc_float:
+#      collapse: false
+    theme: flatly
+    css: style.css
+    md_extensions: -ascii_identifiers

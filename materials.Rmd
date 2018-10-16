@@ -1,0 +1,13 @@
+---
+title: "資料集"
+output: html_document
+---
+
+共同研究で翻訳した尺度等を紹介する予定です。
+<br/><br/>
+
+### 心理尺度
+
+#### 日本語版対人反応性指標 (Interpersonal Reactivity Index)  (Davis, 1980; 日道他, 2017)
+- 共感性の個人差を多角的に測る尺度です。
+- 使用マニュアルは[日道俊之さんのウェブサイト](https://sites.google.com/site/toshiyukihimichi/iri-j?authuser=0)からご確認ください。

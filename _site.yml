@@ -1,5 +1,6 @@
 name: "personal-website"
 output_dir: "docs"
+google_analytics: "UA-127557744-1"
 navbar:
   title: "Yuta Kawamura"
   left:

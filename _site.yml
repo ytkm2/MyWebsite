@@ -1,6 +1,5 @@
 name: "personal-website"
 output_dir: "docs"
-google_analytics: "UA-127557744-1"
 navbar:
   title: "Yuta Kawamura"
   left:
@@ -20,10 +19,8 @@ navbar:
       href: english.html
 output:
   html_document:
-#    toc: true
-#    toc_depth: 3
-#    toc_float:
-#      collapse: false
+    includes:
+       in_header: GA_Script.html
     theme: flatly
     css: style.css
     md_extensions: -ascii_identifiers

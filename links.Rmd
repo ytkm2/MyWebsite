@@ -6,7 +6,6 @@ output: html_document
 当サイトをリンクしてくださる方は一言お知らせいただけると幸いです。
 <br/><br/>
 
-####[京都大学大学院教育学研究科教育認知心理学講座](http://cogpsy.educ.kyoto-u.ac.jp/)
-
+####<a href="http://cogpsy.educ.kyoto-u.ac.jp/" target="_blank">京都大学大学院教育学研究科教育認知心理学講座</a>
 - 現所属です。
 

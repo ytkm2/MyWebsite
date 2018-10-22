@@ -13,9 +13,9 @@ output: html_document
 
 Mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp
 
-[ResearchGate](https://www.researchgate.net/profile/Yuta_Kawamura)
+<a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a>
 
-[Google Scholar Citations](https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao)
+<a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar Citations</a>
 <br/><br/>
 
 ### 研究関心

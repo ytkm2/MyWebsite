@@ -77,7 +77,7 @@ Human Behavior & Evolution Society of Japan
 ## Publications
 
 ### Journal Articles (Peer-Reviewed Articles)
-1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (in press). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology.
+1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (in press). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology. doi: <a href="http://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a>
 
 1. Ichimura, K., <u>Kawamura, Y.</u>, Takahashi, Y., Kusumi, T. (2018). Relationships
 between Environmental Factors of the Learning

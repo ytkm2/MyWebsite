@@ -11,7 +11,9 @@ output: html_document
 
 ### 論文 (査読有)
 
-1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (2018). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology. doi: <a href="http://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a>
+1. Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, & Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically Consistent Concepts on the Same Stereotype Dimension, but may not Spread to the Other Stereotype Dimension. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a>
+
+1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (2019). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology, 116, 1-14. doi: <a href="https://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a>
 
 1. 市村賢士郎・<u>河村悠太</u>・高橋雄介・楠見孝 (2018). ラーニングコモンズの環境要因と創造性課題の成績との関連　日本教育工学会論文誌, 42(1), 55-64. doi: <a href="https://doi.org/10.15077/jjet.42015" target="_blank">10.15077/jjet.42015</a>
 
@@ -50,11 +52,11 @@ output: html_document
 <br/><br/>
 
 ### 学会発表 (国内)
-1. 市村賢士郎・<u>河村悠太</u> (2018). 大学における自己調整学習の経験と社会的スキルとの関連. 日本教育工学会第83回大会, 仙台, 2018年9月28日-9月30日. (ポスター発表)
+1. 市村賢士郎・<u>河村悠太</u> (2018). 大学における自己調整学習の経験と社会的スキルとの関連. 日本教育工学会第34回大会, 仙台, 2018年9月28日-9月30日. (ポスター発表)
 
-1. <u>河村悠太</u>・楠見孝 (2018). 過剰な利他主義者は評判を獲得できるか (2)　 －社会的規範の調整効果－. 日本心理学会第83回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)
+1. <u>河村悠太</u>・楠見孝 (2018). 過剰な利他主義者は評判を獲得できるか (2)　 －社会的規範の調整効果－. 日本心理学会第82回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)
 
-1. 市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝 (2018). 仕事における目標・動機づけが働きがいに及ぼす影響　－ブルーカラーとホワイトカラーの比較－. 日本心理学会第83回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)
+1. 市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝 (2018). 仕事における目標・動機づけが働きがいに及ぼす影響　－ブルーカラーとホワイトカラーの比較－. 日本心理学会第82回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)
 
 1. <u>河村悠太</u>・楠見孝 (2018). 過剰な利他主義者は評判を獲得できるか (3)　 －社会的規範の日米文化差に着目して－. 日本グループ・ダイナミックス学会第65回大会, 神戸, 2018年9月8日-9月9日. (口頭発表)
 

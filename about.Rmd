@@ -62,6 +62,10 @@ Mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp
 2015.8 Society for Personality and Social Psychology, Graduate Travel Award ($500)
 
 2016.11 日本グループ・ダイナミックス学会 2016年度優秀学会発表賞（ポスター発表部門）
+
+2018.11 京都大学大学院教育学研究科長賞（分野：学業）
+
+2019.1 第9回（平成30年度）日本学術振興会 育志賞
 <br/><br/>
 
 ### 所属学会
@@ -91,4 +95,4 @@ Society for Personality and Social Psychology
 <br/><br/>
 
 ### スキル
-R, Python, SPSS, ArcGIS, Qualtrics, etc.
+R, Python, SPSS, ArcGIS, Qualtrics, oTree, etc.

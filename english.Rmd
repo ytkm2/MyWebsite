@@ -42,7 +42,7 @@ Research interests: Altruism, Reputation, Helping Behavior etc.
 
 2014.4 - 2019.3 Teaching Assistant, Graduate School of Education, Kyoto University
 
-2013.4 - 2013.11, 2015.6-2016.3 Office Assistant, Kokoro Research Center, Kyoto University 
+2013.4 - 2013.11, 2015.6-2016.3 Office Assistant, Kokoro Research Center, Kyoto University
 <br/><br/>
 
 ## Fellowship
@@ -54,11 +54,15 @@ Research interests: Altruism, Reputation, Helping Behavior etc.
 <br/><br/>
 
 ## Awards
+2019 Japan Society for the Promotion of Science, Ninth JSPS Ikushi Prize (1,100,000 yen)
+
+2018 Graduate School of Education (Kyoto University), Distinguished Student Award
+
 2016 Japanese Group Dynamics Association, Distinguished Presentation Award
 
 2015 Society for Personality and Social Psychology, Graduate Travel Award ($ 500)
 
-2014 Encouraging Prize for Young Researchers, Japanese Society for Social Psychology (100,000 yen)
+2014 Japanese Society for Social Psychology, Encouraging Prize for Young Researchers (100,000 yen)
 <br/><br/>
 
 ## Professional Membership
@@ -77,7 +81,9 @@ Human Behavior & Evolution Society of Japan
 ## Publications
 
 ### Journal Articles (Peer-Reviewed Articles)
-1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (in press). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology. doi: <a href="http://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a>
+1. Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, & Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically Consistent Concepts on the Same Stereotype Dimension, but may not Spread to the Other Stereotype Dimension. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a>
+
+1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., & Yoshikawa, S. (2019). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology, 116, 1-14. doi: <a href="https://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a>
 
 1. Ichimura, K., <u>Kawamura, Y.</u>, Takahashi, Y., Kusumi, T. (2018). Relationships
 between Environmental Factors of the Learning

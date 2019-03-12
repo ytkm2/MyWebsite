@@ -5,7 +5,7 @@ output: html_document
 
 ## Profile
 
-Name: Yuta Kawamura (Ph.D. student)
+Name: Yuta Kawamura (Ph.D.student)
 
 Affiliation: Graduate School of Education, Kyoto University
 

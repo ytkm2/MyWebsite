@@ -7,9 +7,9 @@ output: html_document
 
 河村悠太 (Yuta Kawamura)
 
-学位: 修士 (教育学)
+学位: 博士 (教育学)
 
-京都大学大学院教育学研究科 教育認知心理学講座 博士後期課程3年
+神戸大学大学院人文学研究科 日本学術振興会特別研究員PD
 
 Mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp
 
@@ -54,6 +54,8 @@ Mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp
 2016.4 - 2019.3 日本学術振興会特別研究員 DC1
 
 2018.4 - 2019.3 滋賀県立大学「行動論演習」非常勤講師
+
+2019.4 - 現在 日本学術振興会特別研究員PD
 <br/><br/>
 
 ### 受賞歴

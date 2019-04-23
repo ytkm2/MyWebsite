@@ -16,7 +16,7 @@ output: html_document
 ## {.row}
 
 ### 近況 {.col-md-6}
-- 毎日登山してます。
+- 毎日登山をしています。
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}

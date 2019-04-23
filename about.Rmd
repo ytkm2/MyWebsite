@@ -11,7 +11,7 @@ output: html_document
 
 神戸大学大学院人文学研究科 日本学術振興会特別研究員PD
 
-Mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp
+Mail: kawamura[at]lit.kobe-u.ac.jp
 
 <a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a>
 
@@ -56,6 +56,12 @@ Mail: kawamura.yuta.83c[at]st.kyoto-u.ac.jp
 2018.4 - 2019.3 滋賀県立大学「行動論演習」非常勤講師
 
 2019.4 - 現在 日本学術振興会特別研究員PD
+
+2019.4 - 現在 神戸大学「心理学A」非常勤講師
+
+2019.4 - 現在 神戸大学「情報基礎」非常勤講師
+
+2019.4 - 現在 神戸松蔭女子学院大学「社会心理学」非常勤講師
 <br/><br/>
 
 ### 受賞歴

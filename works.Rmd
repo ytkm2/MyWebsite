@@ -36,6 +36,8 @@ output: html_document
 <br/><br/>
 
 ### 学会発表 (国際)
+1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (2019, 10). Effects of Cost and Benefit of Altruism on Reputation. The annual Darwin Day meeting, St. Catharines, ON, Canada, October 15. 
+
 1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients' Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.
 
 1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.

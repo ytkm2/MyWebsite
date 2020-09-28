@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>Publication</title>
 
+<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -22,9 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <!--html_preserve-->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127557744-1"></script>
@@ -85,9 +85,7 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -101,7 +99,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -111,6 +108,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -126,7 +126,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -146,6 +145,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -167,19 +203,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -236,11 +327,11 @@ $(document).ready(function () {
 
 <p>論文の必要な方はkawamura[at]lit.kobe-u.ac.jpまでご連絡ください。 <br/><br/></p>
 <div id="section" class="section level2 tabset">
-<h2></h2>
+<h2 class="tabset"></h2>
 <div id="論文-査読有" class="section level3">
 <h3>論文 (査読有)</h3>
 <ol style="list-style-type: decimal">
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (in press). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology. doi: <a href="https://authors.elsevier.com/a/1bJD151f8ebO3" target="_blank">10.1016/j.jesp.2020.104021</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (in press). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a></p></li>
 <li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (in press). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a></p></li>
 <li><p>Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, &amp; Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically Consistent Concepts on the Same Stereotype Dimension, but may not Spread to the Other Stereotype Dimension. Japanese Psychological Research, 61(2), 83-93. doi: <a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a></p></li>
 <li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., &amp; Yoshikawa, S. (2019). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology, 116(1), 1-14. doi: <a href="https://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a></p></li>
@@ -308,6 +399,7 @@ $(document).ready(function () {
 <div id="その他" class="section level3">
 <h3>その他</h3>
 <ol style="list-style-type: decimal">
+<li><p>現代思想2020年9月号 研究手帖「利他行動を測る」, 青土社, 2020年8月27日. <a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a> <br/><br/></p></li>
 <li><p>京都大学 研究報告「2種類の評判への関心と日常の利他行動の関連 －周りから好かれたい人、嫌われたくない人ほど人助けをよくするか－」2017年9月27日. <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2017/170915_1.html" target="_blank">link</a> <br/><br/></p></li>
 <li><p>京都大学教育学研究科 教育認知心理学講座 「大学院生の声 講座紹介」2015年5月27日. <a href="http://cogpsy.educ.kyoto-u.ac.jp/inside/index.html#article05" target="_blank">link</a></p></li>
 </ol>
@@ -331,6 +423,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

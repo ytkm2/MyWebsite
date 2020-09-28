@@ -11,7 +11,7 @@ output: html_document
 
 ### 論文 (査読有)
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (in press). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology. doi: <a href="https://authors.elsevier.com/a/1bJD151f8ebO3" target="_blank">10.1016/j.jesp.2020.104021</a>
+1. <u>Kawamura, Y.</u>, Kusumi, T. (in press). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a>
 
 1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (in press). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a>
 
@@ -112,6 +112,9 @@ output: html_document
 <br/><br/>
 
 ### その他
+1. 現代思想2020年9月号 研究手帖「利他行動を測る」, 青土社, 2020年8月27日. <a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a>
+<br/><br/>
+
 1. 京都大学 研究報告「2種類の評判への関心と日常の利他行動の関連 －周りから好かれたい人、嫌われたくない人ほど人助けをよくするか－」2017年9月27日. <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2017/170915_1.html" target="_blank">link</a>
 <br/><br/>
 

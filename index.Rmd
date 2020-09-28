@@ -16,15 +16,12 @@ output: html_document
 ## {.row}
 
 ### 近況 {.col-md-6}
-- 2本出ました。1本目の論文は下記リンクから50日間 (8月17日まで) 無料で全文お読みいただけます。
-
-1. <u>Kawamura, Y.</u>, Kusumi, T. (in press). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology. doi: <a href="https://authors.elsevier.com/a/1bJD151f8ebO3" target="_blank">10.1016/j.jesp.2020.104021</a>
-
-1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (in press). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a>
+- 「現代思想 (青土社)」(9月号) の研究手帖に文章を寄稿しました。<a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a>
 
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}
+- 2020/09/28 いろいろ修正しました
 - 2020/06/28 Works, Englishを修正しました
 - 2019/12/16 いろいろ修正しました
 - 2019/11/17 いろいろ修正しました

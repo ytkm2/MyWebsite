@@ -13,7 +13,7 @@
 
 <title>Yuta Kawamura</title>
 
-<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -37,6 +37,15 @@
 </script>
 
 <!--/html_preserve-->
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -82,6 +91,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -289,7 +299,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
@@ -347,9 +357,10 @@ $(document).ready(function () {
 <p>2016.4 - 2019.3 Research Fellow (DC1), Japan Society for the Promotion of Sciences <br/><br/></p>
 <div id="ta-ra-oa-and-part-time-lecturer" class="section level3">
 <h3>TA, RA, OA, and Part-time Lecturer</h3>
+<p>2020.9 - 2021.3 Part-time Lecturer (Scaling Training), Konan University</p>
 <p>2019.4 - 2019.9 Part-time Lecturer (Social Psychology), Kobe Shoin Women’s University</p>
 <p>2019.4 - 2019.6 Part-time Lecturer (Basic Information), Kobe University</p>
-<p>2019.4 - 2019.6 Part-time Lecturer (Psychology A), Kobe University</p>
+<p>2019.4 - 2019.6, 2020.6-2020.9 Part-time Lecturer (Psychology A), Kobe University</p>
 <p>2018.4 - 2019.3 Part-time Lecturer (Research Methods for the Studies of Human Behaviors), The University of Shiga Prefecture</p>
 <p>2015.1 - 2015.3 Office Assistant, Graduate School of Education, Kyoto University</p>
 <p>2014.6 - 2017.3 Teaching Assistant, Academic Center for Computing and Media Studies, Kyoto University</p>
@@ -429,7 +440,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

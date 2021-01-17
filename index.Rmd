@@ -16,11 +16,12 @@ output: html_document
 ## {.row}
 
 ### 近況 {.col-md-6}
-- 「現代思想 (青土社)」(9月号) の研究手帖に文章を寄稿しました。<a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a>
+- あけましておめでとうございます。
 
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}
+- 2021/01/17 About, Englishを修正しました
 - 2020/09/28 いろいろ修正しました
 - 2020/06/28 Works, Englishを修正しました
 - 2019/12/16 いろいろ修正しました

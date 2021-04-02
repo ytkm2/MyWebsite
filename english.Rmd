@@ -7,9 +7,9 @@ output: html_document
 
 Name: Yuta Kawamura (Ph.D)
 
-Affiliation: Graduate School of Humanities, Kobe University
+Affiliation: Graduate School of Humanities and Sustainable System Sciences, Osaka Prefecture University
 
-E-mail: kawamura[at]lit.kobe-u.ac.jp
+E-mail: kawamura[at]hs.osakafu-u.ac.jp
 
 Research interests: Altruism, Reputation, Helping Behavior etc.
 
@@ -29,9 +29,11 @@ Research interests: Altruism, Reputation, Helping Behavior etc.
 
 ## Professional Experience
 
+2021.4 - present Associate Professor (Osaka Prefecture University)
+
 2019.9 - 2019.11 Visiting Researcher (University of Guelph, Canada)
 
-2019.4 - Present Research Fellow (PD), Japan Society for the Promotion of Sciences
+2019.4 - 2021.3 Research Fellow (PD), Japan Society for the Promotion of Sciences
 
 2016.4 - 2019.3 Research Fellow (DC1), Japan Society for the Promotion of Sciences
 <br/><br/>
@@ -60,7 +62,10 @@ Research interests: Altruism, Reputation, Helping Behavior etc.
 <br/><br/>
 
 ## Fellowship
-2019.4 - present Research Fellowship for Young Scientists (PD), Japan Society for the Promotion of Science (3,700,000 yen)
+
+2021.4 - 2022.3 Grant for Groundbreaking Young Researchers, Suntory Foundation (1,000,000 yen)
+
+2019.4 - 2021.3 Research Fellowship for Young Scientists (PD), Japan Society for the Promotion of Science (2,500,000 yen)
 
 2016.4 - 2019.3 Doctoral Course Fellowship, Japan Society for the Promotion of Science (2,800,000 yen)
 

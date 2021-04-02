@@ -9,9 +9,9 @@ output: html_document
 
 学位: 博士 (教育学)
 
-神戸大学大学院人文学研究科 日本学術振興会特別研究員PD
+大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授
 
-Mail: kawamura[at]lit.kobe-u.ac.jp
+Mail: kawamura[at]hs.osakafu-u.ac.jp
 
 <a href="https://researchmap.jp/yutak/" target="_blank">Researchmap</a>
 
@@ -44,9 +44,11 @@ Mail: kawamura[at]lit.kobe-u.ac.jp
 
 ### 職歴
 
+2021.4 - 現在 大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授
+
 2019.9 - 2019.11 Visiting Researcher (University of Guelph, Canada)
 
-2019.4 - 現在 日本学術振興会特別研究員PD
+2019.4 - 2021.3 日本学術振興会特別研究員PD
 
 2016.4 - 2019.3 日本学術振興会特別研究員 DC1
 <br/><br/>
@@ -107,7 +109,9 @@ Society for Personality and Social Psychology
 
 ### 研究助成
 
-2019.4 - 2022.3 日本学術振興会特別研究員 (PD) 特別研究員奨励費
+2021.4 - 2022.4 公益財団法人 サントリー文化財団 若手研究者のためのチャレンジ研究助成
+
+2019.4 - 2021.3 日本学術振興会特別研究員 (PD) 特別研究員奨励費
 
 2016.4 - 2019.3 日本学術振興会特別研究員 (DC1) 特別研究員奨励費
 
@@ -139,4 +143,4 @@ Personality and Individual Differences
 <br/><br/>
 
 ### スキル
-R, Python, SPSS, ArcGIS, Qualtrics, oTree, etc.
+R, Python, SPSS, ArcGIS, Qualtrics, oTree, jsPsych, etc.

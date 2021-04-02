@@ -7,8 +7,8 @@ output: html_document
 <br/><br/>
 
 #### <a href="http://www.lit.kobe-u.ac.jp/psychology/" target="_blank">神戸大学文学部心理学研究室</a>
-- 現所属です。
+- ポスドク時代の所属です。
 
 #### <a href="http://cogpsy.educ.kyoto-u.ac.jp/" target="_blank">京都大学大学院教育学研究科教育認知心理学講座</a>
-- 旧所属です。
+- 大学院時代の所属です。
 

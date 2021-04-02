@@ -3,7 +3,7 @@ title: "Publication"
 output: html_document
 ---
 
-論文の必要な方はkawamura[at]lit.kobe-u.ac.jpまでご連絡ください。
+論文の必要な方はkawamura[at]hs.osakafu-u.ac.jpまでご連絡ください。
 <br/><br/>
 
 ##  {.tabset}

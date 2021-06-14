@@ -11,9 +11,9 @@ output: html_document
 
 ### 論文 (査読有)
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (in press). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a>
+1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (2021). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science, 12(4), 452-460. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a>
 
-1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (in press). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a>
+1. <u>Kawamura, Y.</u>, Kusumi, T. (2020). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology, 90, 104021. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a>
 
 1. Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, & Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically Consistent Concepts on the Same Stereotype Dimension, but may not Spread to the Other Stereotype Dimension. Japanese Psychological Research, 61(2), 83-93. doi: <a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a>
 

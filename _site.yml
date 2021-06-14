@@ -1,7 +1,7 @@
 name: "personal-website"
 output_dir: "docs"
 navbar:
-  title: "Yuta Kawamura"
+  title: ""
   left:
     - text: "Home"
       icon: fa-home

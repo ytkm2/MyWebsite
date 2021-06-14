@@ -20,6 +20,13 @@ border-color: #16264d; /* border */
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-background-color: #0e1833;
+background-color: #14254c;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+color: #ffffff;
+background-color: #1b3166;
 }
 

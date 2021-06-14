@@ -6,6 +6,7 @@ line-height: 1.2em;
 
 
 body {
+overflow-y: scroll; /* always show scroll bar */
 font-size: 1.8em;
 font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;  
 }

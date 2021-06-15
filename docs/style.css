@@ -1,7 +1,7 @@
 
 /*title*/
-h1 {
-line-height: 1.2em;
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic Bold,'Yu Gothic Bold','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;  
 }
 
 

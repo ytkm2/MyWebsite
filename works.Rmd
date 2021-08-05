@@ -11,6 +11,8 @@ output: html_document
 
 ### 論文 (査読有)
 
+1. Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, Smith, A. R., & Nomura, M. (2021). Exploring the Multidimensional Links between Trait Mindfulness and Trait Empathy. Frontiers in Psychiatry, 12, 498614.
+
 1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (2021). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science, 12(4), 452-460. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a>
 
 1. <u>Kawamura, Y.</u>, Kusumi, T. (2020). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology, 90, 104021. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a>

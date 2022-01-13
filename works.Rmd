@@ -11,6 +11,8 @@ output: html_document
 
 ### 論文 (査読有)
 
+1. 市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝 (印刷中). 仕事に対する達成目標と仕事の意味づけとの関連. 心理学研究, 93(1).
+
 1. <u>Kawamura, Y.</u>, Sasaki, S., & Kusumi, T. (in press). Cultural similarities and differences in lay theories of altruism: Replication of Carlson and Zaki (2018) in a Japanese sample. Asian Journal of Social Psychology. doi: <a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a>
 
 1. Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, Smith, A. R., & Nomura, M. (2021). Exploring the Multidimensional Links between Trait Mindfulness and Trait Empathy. Frontiers in Psychiatry, 12, 498614. doi: <a href="https://doi.org/10.3389/fpsyt.2021.498614" target="_blank">10.3389/fpsyt.2021.498614</a>
@@ -62,6 +64,8 @@ output: html_document
 <br/><br/>
 
 ### 学会 (国内)
+1. 佐々木周作・<u>河村悠太</u>・岡田彩・渡邉文隆 (2021). 寄付者とファンドレイザー：寄付促進施策に対する主観的評価. 日本行動経済学会第15回大会, 成城大学, 2021年12月11日-12月12日. (口頭発表)
+
 1. 福島慎太郎・竹村幸祐・内田由紀子・<u>河村悠太</u> (2021). 信頼は集団レベルで規範に変化する―地域コミュニティ調査データに対するマルチレベル分析―. 日本社会心理学会第62回大会, Web開催, 2021年8月26日-8月27日. (Webポスター発表)
 
 1. <u>河村悠太</u> (2019). 評判手がかりは評判関連語への反応を促進するか. 第12回日本人間行動進化学会大会, 東京, 2019年12月7日-12月8日. (ポスター発表, 若手ポスター発表賞)
@@ -119,7 +123,14 @@ output: html_document
 1. 市村賢士郎・伊川美保・<u>河村悠太</u>・Arseny Tolmachev・長見祐暉・高橋雄介・楠見孝 (2015). ラーニングコモンズにおける学習環境をデザインする. 第21回大学教育研究フォーラム, 京都, 2015年3月13日-14日. (ポスター発表)
 <br/><br/>
 
+### 書籍
+
+1. 河村悠太 (訳). 後藤崇志・日道俊之・小宮あすか・楠見　孝 (監訳). 未来思考の心理学 予測・計画・達成する心のメカニズム. 北大路書房 (Oettingen, G., Sevincer, A. T., & Gollwitzer, P. (Eds.). (2018). The psychology of thinking about the future. The Guilford Press.). <a href="https://www.kitaohji.com/book/b589873.html" target="_blank">link</a>
+<br/><br/>
+
+
 ### その他
+
 1. 現代思想2020年9月号 研究手帖「利他行動を測る」, 青土社, 2020年8月27日. <a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a>
 <br/><br/>
 
@@ -127,3 +138,4 @@ output: html_document
 <br/><br/>
 
 1. 京都大学教育学研究科 教育認知心理学講座 「大学院生の声 講座紹介」2015年5月27日. <a href="http://cogpsy.educ.kyoto-u.ac.jp/inside/index.html#article05" target="_blank">link</a>
+

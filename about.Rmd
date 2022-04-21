@@ -10,9 +10,9 @@ output: html_document
 
 学位: 博士 (教育学)
 
-大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授
+大阪公立大学現代システム科学研究科 准教授
 
-Mail: kawamura[at]hs.osakafu-u.ac.jp
+Mail: ykawamura[at]omu.ac.jp
 
 <a href="https://researchmap.jp/yutak/" target="_blank">Researchmap</a>
 
@@ -45,7 +45,9 @@ Mail: kawamura[at]hs.osakafu-u.ac.jp
 
 ### 職歴
 
-2021.4 - 現在 大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授
+2022.4 - 現在 大阪公立大学現代システム科学研究科 准教授
+
+2021.4 - 2022.3 大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授
 
 2019.9 - 2019.11 Visiting Researcher (University of Guelph, Canada)
 
@@ -111,6 +113,8 @@ Human Behavior & Evolution Society
 <br/><br/>
 
 ### 研究助成
+
+2022.4 - 2026.3 日本学術振興会 科学研究費助成事業 若手研究
 
 2021.4 - 2022.4 公益財団法人 サントリー文化財団 若手研究者のためのチャレンジ研究助成
 

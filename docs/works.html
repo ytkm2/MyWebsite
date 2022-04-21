@@ -13,13 +13,22 @@
 
 <title>Publication</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -48,11 +57,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -65,32 +69,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -102,10 +81,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -122,40 +97,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -183,7 +134,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -195,7 +146,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -206,10 +157,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -221,7 +185,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -288,7 +251,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -299,7 +262,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -326,7 +289,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -335,26 +298,75 @@ $(document).ready(function () {
 </div>
 
 
-<p>論文の必要な方はkawamura[at]hs.osakafu-u.ac.jpまでご連絡ください。 <br/><br/></p>
+<p>論文の必要な方はkawamura[at]hs.osakafu-u.ac.jpまでご連絡ください。
+<br/><br/></p>
 <div id="section" class="section level2 tabset">
 <h2 class="tabset"></h2>
 <div id="論文-査読有" class="section level3">
 <h3>論文 (査読有)</h3>
 <ol style="list-style-type: decimal">
-<li><p>市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝 (印刷中). 仕事に対する達成目標と仕事の意味づけとの関連. 心理学研究, 93(1).</p></li>
-<li><p><u>Kawamura, Y.</u>, Sasaki, S., &amp; Kusumi, T. (in press). Cultural similarities and differences in lay theories of altruism: Replication of Carlson and Zaki (2018) in a Japanese sample. Asian Journal of Social Psychology. doi: <a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a></p></li>
-<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, Smith, A. R., &amp; Nomura, M. (2021). Exploring the Multidimensional Links between Trait Mindfulness and Trait Empathy. Frontiers in Psychiatry, 12, 498614. doi: <a href="https://doi.org/10.3389/fpsyt.2021.498614" target="_blank">10.3389/fpsyt.2021.498614</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2021). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science, 12(4), 452-460. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2020). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology, 90, 104021. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a></p></li>
-<li><p>Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, &amp; Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically Consistent Concepts on the Same Stereotype Dimension, but may not Spread to the Other Stereotype Dimension. Japanese Psychological Research, 61(2), 83-93. doi: <a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a></p></li>
-<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., &amp; Yoshikawa, S. (2019). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology, 116(1), 1-14. doi: <a href="https://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a></p></li>
-<li><p>市村賢士郎・<u>河村悠太</u>・高橋雄介・楠見孝 (2018). ラーニングコモンズの環境要因と創造性課題の成績との関連. 日本教育工学会論文誌, 42(1), 55-64. doi: <a href="https://doi.org/10.15077/jjet.42015" target="_blank">10.15077/jjet.42015</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between rejection avoidance and altruism is moderated by social norms. Personality and Individual Differences, 129, 24-27. doi: <a href="https://doi.org/10.1016/j.paid.2018.02.038" target="_blank">10.1016/j.paid.2018.02.038</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two types of reputational concern and altruistic behavior in daily life. Personality and Individual Differences, 121, 19-24. doi: <a href="https://doi.org/10.1016/j.paid.2017.09.003" target="_blank">10.1016/j.paid.2017.09.003</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed to men who help young women: Signaling function of male altruism. Letters on Evolutionary Behavioral Science, 2, 45-48. doi: <a href="https://doi.org/10.5178/lebs.2017.64" target="_blank">10.5178/lebs.2017.64</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect of watching eyes on donation. Evolution and Human Behavior, 38, 659-666. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2017.05.003" target="_blank">10.1016/j.evolhumbehav.2017.05.003</a></p></li>
-<li><p>日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・Davis, Mark H.・野村理朗 (2017). 日本語版対人反応性指標の作成. 心理学研究, 88(1), 61-71. doi: <a href="https://doi.org/10.4992/jjpsy.88.15218" target="_blank">10.4992/jjpsy.88.15218</a></p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2015). 募金広告の描写が援助対象への顕在的・潜在的評価及び寄付行動に与える影響. 心理学研究, 86(1), 21-31. doi: <a href="https://doi.org/10.4992/jjpsy.86.14021" target="_blank">10.4992/jjpsy.86.14021</a> <br/><br/></p></li>
+<li><p>市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝
+(印刷中). 仕事に対する達成目標と仕事の意味づけとの関連. 心理学研究,
+93(1).</p></li>
+<li><p><u>Kawamura, Y.</u>, Sasaki, S., &amp; Kusumi, T. (in press).
+Cultural similarities and differences in lay theories of altruism:
+Replication of Carlson and Zaki (2018) in a Japanese sample. Asian
+Journal of Social Psychology. doi:
+<a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a></p></li>
+<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura,
+Y.</u>, Smith, A. R., &amp; Nomura, M. (2021). Exploring the
+Multidimensional Links between Trait Mindfulness and Trait Empathy.
+Frontiers in Psychiatry, 12, 498614. doi:
+<a href="https://doi.org/10.3389/fpsyt.2021.498614" target="_blank">10.3389/fpsyt.2021.498614</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2021).
+Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social
+Psychological and Personality Science, 12(4), 452-460. doi:
+<a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2020). Altruism does not always
+lead to a good reputation: A normative explanation. Journal of
+Experimental Social Psychology, 90, 104021. doi:
+<a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a></p></li>
+<li><p>Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, &amp;
+Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically
+Consistent Concepts on the Same Stereotype Dimension, but may not Spread
+to the Other Stereotype Dimension. Japanese Psychological Research,
+61(2), 83-93. doi:
+<a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a></p></li>
+<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura,
+Y.</u>, Hitokoto, H., Koizumi, N., &amp; Yoshikawa, S. (2019). Farming
+cultivates a community-level shared culture through collective
+activities: Examining contextual effects with multilevel analyses.
+Journal of Personality and Social Psychology, 116(1), 1-14. doi:
+<a href="https://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a></p></li>
+<li><p>市村賢士郎・<u>河村悠太</u>・高橋雄介・楠見孝 (2018).
+ラーニングコモンズの環境要因と創造性課題の成績との関連.
+日本教育工学会論文誌, 42(1), 55-64. doi:
+<a href="https://doi.org/10.15077/jjet.42015" target="_blank">10.15077/jjet.42015</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between
+rejection avoidance and altruism is moderated by social norms.
+Personality and Individual Differences, 129, 24-27. doi:
+<a href="https://doi.org/10.1016/j.paid.2018.02.038" target="_blank">10.1016/j.paid.2018.02.038</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two
+types of reputational concern and altruistic behavior in daily life.
+Personality and Individual Differences, 121, 19-24. doi:
+<a href="https://doi.org/10.1016/j.paid.2017.09.003" target="_blank">10.1016/j.paid.2017.09.003</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed
+to men who help young women: Signaling function of male altruism.
+Letters on Evolutionary Behavioral Science, 2, 45-48. doi:
+<a href="https://doi.org/10.5178/lebs.2017.64" target="_blank">10.5178/lebs.2017.64</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect
+of watching eyes on donation. Evolution and Human Behavior, 38, 659-666.
+doi:
+<a href="https://doi.org/10.1016/j.evolhumbehav.2017.05.003" target="_blank">10.1016/j.evolhumbehav.2017.05.003</a></p></li>
+<li><p>日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・Davis,
+Mark H.・野村理朗 (2017). 日本語版対人反応性指標の作成. 心理学研究,
+88(1), 61-71. doi:
+<a href="https://doi.org/10.4992/jjpsy.88.15218" target="_blank">10.4992/jjpsy.88.15218</a></p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2015).
+募金広告の描写が援助対象への顕在的・潜在的評価及び寄付行動に与える影響.
+心理学研究, 86(1), 21-31. doi:
+<a href="https://doi.org/10.4992/jjpsy.86.14021" target="_blank">10.4992/jjpsy.86.14021</a>
+<br/><br/></p></li>
 </ol>
 </div>
 <div id="論文-査読無" class="section level3">
@@ -364,66 +376,186 @@ $(document).ready(function () {
 <div id="学会-国際" class="section level3">
 <h3>学会 (国際)</h3>
 <ol style="list-style-type: decimal">
-<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2019, 10). Effects of Cost and Benefit of Altruism on Reputation. The annual Darwin Day meeting, St. Catharines, ON, Canada, October 15.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients’ Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.</p></li>
-<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, &amp; Nomura, M. (2016, 7). Relationships between mindfulness and empathy. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of reputational concerns on altruistic behavior. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30. (granted SPSP Student Travel Award)</p></li>
-<li><p>Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>, Hiraoka, D., &amp; Nomura, M. (2016, 1). Domain specific effects of negative emotions on lateral prefrontal cortex activity during inference of others’ mind. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in the evaluation of men’s altruistic behavior. The 14th Justice and Morality Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.</p></li>
-<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N., <u>Kawamura, Y.</u>, &amp; Yoshikawa, S. (2015, 2). Farming, but not fishing, cultivates shared culture within a community. The 10th Cultural Psychology Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26. <br/><br/></p></li>
+<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2019, 10).
+Effects of Cost and Benefit of Altruism on Reputation. The annual Darwin
+Day meeting, St. Catharines, ON, Canada, October 15.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift
+Affects Estimates of Recipients’ Appreciation. The 23rd Congress of the
+International Association for Cross-Cultural Psychology, Nagoya, Japan,
+July 30- August 3.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the
+relationship between the Big-Five personality traits and altruistic
+behavior. The 31st International Congress of Psychology, Yokohama,
+Japan, July 24-29.</p></li>
+<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura,
+Y.</u>, &amp; Nomura, M. (2016, 7). Relationships between mindfulness
+and empathy. The 31st International Congress of Psychology, Yokohama,
+Japan, July 24-29.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of
+reputational concerns on altruistic behavior. The 17th Annual Meeting of
+Society for Personality and Social Psychology, San Diego, California,
+USA, January 28-30. (granted SPSP Student Travel Award)</p></li>
+<li><p>Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>,
+Hiraoka, D., &amp; Nomura, M. (2016, 1). Domain specific effects of
+negative emotions on lateral prefrontal cortex activity during inference
+of others’ mind. The 17th Annual Meeting of Society for Personality and
+Social Psychology, San Diego, California, USA, January 28-30.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in
+the evaluation of men’s altruistic behavior. The 14th Justice and
+Morality Preconference (at the 16th Annual Meeting of Society for
+Personality and Social Psychology), Long Beach, California, USA,
+February 26.</p></li>
+<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N.,
+<u>Kawamura, Y.</u>, &amp; Yoshikawa, S. (2015, 2). Farming, but not
+fishing, cultivates shared culture within a community. The 10th Cultural
+Psychology Preconference (at the 16th Annual Meeting of Society for
+Personality and Social Psychology), Long Beach, California, USA,
+February 26. <br/><br/></p></li>
 </ol>
 </div>
 <div id="学会-国内" class="section level3">
 <h3>学会 (国内)</h3>
 <ol style="list-style-type: decimal">
-<li><p>佐々木周作・<u>河村悠太</u>・岡田彩・渡邉文隆 (2021). 寄付者とファンドレイザー：寄付促進施策に対する主観的評価. 日本行動経済学会第15回大会, 成城大学, 2021年12月11日-12月12日. (口頭発表)</p></li>
-<li><p>福島慎太郎・竹村幸祐・内田由紀子・<u>河村悠太</u> (2021). 信頼は集団レベルで規範に変化する―地域コミュニティ調査データに対するマルチレベル分析―. 日本社会心理学会第62回大会, Web開催, 2021年8月26日-8月27日. (Webポスター発表)</p></li>
-<li><p><u>河村悠太</u> (2019). 評判手がかりは評判関連語への反応を促進するか. 第12回日本人間行動進化学会大会, 東京, 2019年12月7日-12月8日. (ポスター発表, 若手ポスター発表賞)</p></li>
-<li><p>柳岡開地・<u>河村悠太</u>・石黒翔・平岡大樹・西山慧・阿閉誠・奥野圭祐・齊藤智 (2019). 心拍変動を通して目標無視の機序を探る. 日本認知心理学会第17回大会, 京都, 2019年5月25日-5月26日. (ポスター発表)</p></li>
-<li><p>市村賢士郎・<u>河村悠太</u> (2018). 大学における自己調整学習の経験と社会的スキルとの関連. 日本教育工学会第34回大会, 仙台, 2018年9月28日-9月30日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2018). 過剰な利他主義者は評判を獲得できるか (2)　 －社会的規範の調整効果－. 日本心理学会第82回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)</p></li>
-<li><p>市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝 (2018). 仕事における目標・動機づけが働きがいに及ぼす影響　－ブルーカラーとホワイトカラーの比較－. 日本心理学会第82回大会, 仙台, 2018年9月25日-9月27日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2018). 過剰な利他主義者は評判を獲得できるか (3)　 －社会的規範の日米文化差に着目して－. 日本グループ・ダイナミックス学会第65回大会, 神戸, 2018年9月8日-9月9日. (口頭発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2018). 規範の厳格さと教室秩序の関連　 －PISA2015年調査・社会調査データの二次分析による検討－. 日本社会心理学会第59回大会, 大阪, 2018年8月28日-8月29日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2017). 過剰な利他主義者は評判を獲得できるか (1)　 －シナリオ実験に基づく検討－. 日本社会心理学会第58回大会, 広島, 2017年10月28日-10月29日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・石黒翔・西端和志・星野春香・山下環奈・渡邊智也・楠見孝 (2017). 日本語版道徳アイデンティティ尺度作成と妥当性の検討. 日本心理学会第81回大会, 福岡, 2017年9月20日-22日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2016). 「他者の目」が利他行動を促進するとき　－社会的規範の調整効果－. 日本グループ・ダイナミックス学会第63回大会, 福岡, 2016年10月9日-10日. (ポスター発表, 優秀学会発表賞)</p></li>
-<li><p>市村賢士郎・<u>河村悠太</u>・楠見孝 (2016). 学習空間と空間情報が創造性に及ぼす影響　－ラーニングコモンズは創造性を高めるか－. 日本教育心理学会第58回総会, 香川, 2016年10月8日-10日. (ポスター発表)</p></li>
-<li><p>日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・野村理朗 (2016). 日本語版対人反応性指標の性別による測定不変性の検討. 日本社会心理学会第57回大会, 兵庫, 2016年9月17日-18日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2015). 日常の利他行動に賞賛獲得・拒否回避欲求が及ぼす影響. 日本社会心理学会第56回大会, 東京, 2015年10月31日-11月1日. (口頭発表)</p></li>
-<li><p>日道俊之・藤田弥世・枡田恵・<u>河村悠太</u>・平岡大樹・野村理朗 (2015). 他者の心的状態の推測に対する不快感情の効果の領域固有性 －近赤外分光法を用いた認知神経科学的検討－．日本社会心理学会第56回大会, 東京, 2015年10月31日-11月1日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2015). 利他性の推論に援助者・被援助者の性別が及ぼす影響. 日本心理学会第79回大会, 名古屋, 2015年9月22日-24日. (ポスター発表)</p></li>
-<li><p>日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・Mark H. Davis・野村理朗 (2015). Development of the Interpersonal Reactivity Index in Japanese. 日本心理学会第79回大会, 名古屋, 2015年9月22日-24日. (ポスター発表)</p></li>
-<li><p>後藤崇志・市村賢士郎・岡隆之介・<u>河村悠太</u>・楠見孝 (2015). ジェンダーステレオタイプによる性格特性語の虚再認 －社会的認知の教材作成に向けた予備的検討－. 日本教育心理学会第57回総会, 新潟, 2015年8月26日-28日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2014). 募金広告の性質が援助対象への印象及び寄付行動に及ぼす影響 (2)　－直観的推論との関連－. 日本心理学会第78回大会, 京都, 2014年9月10日-12日. (ポスター発表)</p></li>
-<li><p><u>河村悠太</u>・楠見孝 (2014). 募金広告の性質が援助対象への印象及び寄付行動に及ぼす影響 (1)　－援助者の共感的関心の調整効果－. 日本社会心理学会第55回大会, 北海道, 2014年7月26日-27日. (ポスター発表)</p></li>
-<li><p>日道俊之・枡田恵・<u>河村悠太</u>・平岡大樹・野村理朗 (2014)．心の理論に対する視点取得傾向及び心的ストレスの影響．日本社会心理学会第55回大会, 北海道, 2014年7月26日-27日. (ポスター発表) <br/><br/></p></li>
+<li><p>佐々木周作・<u>河村悠太</u>・岡田彩・渡邉文隆 (2021).
+寄付者とファンドレイザー：寄付促進施策に対する主観的評価.
+日本行動経済学会第15回大会, 成城大学, 2021年12月11日-12月12日.
+(口頭発表)</p></li>
+<li><p>福島慎太郎・竹村幸祐・内田由紀子・<u>河村悠太</u> (2021).
+信頼は集団レベルで規範に変化する―地域コミュニティ調査データに対するマルチレベル分析―.
+日本社会心理学会第62回大会, Web開催, 2021年8月26日-8月27日.
+(Webポスター発表)</p></li>
+<li><p><u>河村悠太</u> (2019).
+評判手がかりは評判関連語への反応を促進するか.
+第12回日本人間行動進化学会大会, 東京, 2019年12月7日-12月8日.
+(ポスター発表, 若手ポスター発表賞)</p></li>
+<li><p>柳岡開地・<u>河村悠太</u>・石黒翔・平岡大樹・西山慧・阿閉誠・奥野圭祐・齊藤智
+(2019). 心拍変動を通して目標無視の機序を探る.
+日本認知心理学会第17回大会, 京都, 2019年5月25日-5月26日.
+(ポスター発表)</p></li>
+<li><p>市村賢士郎・<u>河村悠太</u> (2018).
+大学における自己調整学習の経験と社会的スキルとの関連.
+日本教育工学会第34回大会, 仙台, 2018年9月28日-9月30日.
+(ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2018).
+過剰な利他主義者は評判を獲得できるか (2)　 －社会的規範の調整効果－.
+日本心理学会第82回大会, 仙台, 2018年9月25日-9月27日.
+(ポスター発表)</p></li>
+<li><p>市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝
+(2018).
+仕事における目標・動機づけが働きがいに及ぼす影響　－ブルーカラーとホワイトカラーの比較－.
+日本心理学会第82回大会, 仙台, 2018年9月25日-9月27日.
+(ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2018).
+過剰な利他主義者は評判を獲得できるか (3)　
+－社会的規範の日米文化差に着目して－.
+日本グループ・ダイナミックス学会第65回大会, 神戸, 2018年9月8日-9月9日.
+(口頭発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2018). 規範の厳格さと教室秩序の関連　
+－PISA2015年調査・社会調査データの二次分析による検討－.
+日本社会心理学会第59回大会, 大阪, 2018年8月28日-8月29日.
+(ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2017).
+過剰な利他主義者は評判を獲得できるか (1)　 －シナリオ実験に基づく検討－.
+日本社会心理学会第58回大会, 広島, 2017年10月28日-10月29日.
+(ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・石黒翔・西端和志・星野春香・山下環奈・渡邊智也・楠見孝
+(2017). 日本語版道徳アイデンティティ尺度作成と妥当性の検討.
+日本心理学会第81回大会, 福岡, 2017年9月20日-22日.
+(ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2016).
+「他者の目」が利他行動を促進するとき　－社会的規範の調整効果－.
+日本グループ・ダイナミックス学会第63回大会, 福岡, 2016年10月9日-10日.
+(ポスター発表, 優秀学会発表賞)</p></li>
+<li><p>市村賢士郎・<u>河村悠太</u>・楠見孝 (2016).
+学習空間と空間情報が創造性に及ぼす影響　－ラーニングコモンズは創造性を高めるか－.
+日本教育心理学会第58回総会, 香川, 2016年10月8日-10日.
+(ポスター発表)</p></li>
+<li><p>日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・野村理朗
+(2016). 日本語版対人反応性指標の性別による測定不変性の検討.
+日本社会心理学会第57回大会, 兵庫, 2016年9月17日-18日.
+(ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2015).
+日常の利他行動に賞賛獲得・拒否回避欲求が及ぼす影響.
+日本社会心理学会第56回大会, 東京, 2015年10月31日-11月1日.
+(口頭発表)</p></li>
+<li><p>日道俊之・藤田弥世・枡田恵・<u>河村悠太</u>・平岡大樹・野村理朗
+(2015). 他者の心的状態の推測に対する不快感情の効果の領域固有性
+－近赤外分光法を用いた認知神経科学的検討－．日本社会心理学会第56回大会,
+東京, 2015年10月31日-11月1日. (ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2015).
+利他性の推論に援助者・被援助者の性別が及ぼす影響.
+日本心理学会第79回大会, 名古屋, 2015年9月22日-24日.
+(ポスター発表)</p></li>
+<li><p>日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・Mark
+H. Davis・野村理朗 (2015). Development of the Interpersonal Reactivity
+Index in Japanese. 日本心理学会第79回大会, 名古屋, 2015年9月22日-24日.
+(ポスター発表)</p></li>
+<li><p>後藤崇志・市村賢士郎・岡隆之介・<u>河村悠太</u>・楠見孝 (2015).
+ジェンダーステレオタイプによる性格特性語の虚再認
+－社会的認知の教材作成に向けた予備的検討－. 日本教育心理学会第57回総会,
+新潟, 2015年8月26日-28日. (ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2014).
+募金広告の性質が援助対象への印象及び寄付行動に及ぼす影響
+(2)　－直観的推論との関連－. 日本心理学会第78回大会, 京都,
+2014年9月10日-12日. (ポスター発表)</p></li>
+<li><p><u>河村悠太</u>・楠見孝 (2014).
+募金広告の性質が援助対象への印象及び寄付行動に及ぼす影響
+(1)　－援助者の共感的関心の調整効果－. 日本社会心理学会第55回大会,
+北海道, 2014年7月26日-27日. (ポスター発表)</p></li>
+<li><p>日道俊之・枡田恵・<u>河村悠太</u>・平岡大樹・野村理朗
+(2014)．心の理論に対する視点取得傾向及び心的ストレスの影響．日本社会心理学会第55回大会,
+北海道, 2014年7月26日-27日. (ポスター発表) <br/><br/></p></li>
 </ol>
 </div>
 <div id="研究会等" class="section level3">
 <h3>研究会等</h3>
 <ol style="list-style-type: decimal">
-<li><p><u>河村悠太</u> (2021). 利他行動の評判とは. 第483回関西社会心理学研究会, Web開催, 2021年7月17日. (口頭発表)</p></li>
-<li><p><u>河村悠太</u> (2018). 「他者の目」は利他行動を促進するのか. 第34回広島社会心理学研究会, 広島大学, 2018年6月9日. (口頭発表)</p></li>
-<li><p><u>Kawamura, Y.</u> (2017). The effect of reputational concerns on altruistic behavior in daily life. Leading Graduate Schools Forum 2017, Nagoya, Japan, October 20.</p></li>
-<li><p><u>河村悠太</u> (2017). 『他者の目』が利他行動を促進するとき　－社会的規範の調整効果－. 心の先端研究ユニットコロキアム, 京都大学, 2017年6月27日. (口頭発表).</p></li>
-<li><p><u>河村悠太</u> (2016). The effect of reputational concerns on altruistic behavior. 心の先端研究ユニット「若手研究者交流大会」, 京都大学, 2016年6月11日. (ポスター発表).</p></li>
-<li><p>市村賢士郎・伊川美保・<u>河村悠太</u>・Arseny Tolmachev・長見祐暉・高橋雄介・楠見孝 (2015). ラーニングコモンズにおける学習環境をデザインする. 第21回大学教育研究フォーラム, 京都, 2015年3月13日-14日. (ポスター発表) <br/><br/></p></li>
+<li><p><u>河村悠太</u> (2021). 利他行動の評判とは.
+第483回関西社会心理学研究会, Web開催, 2021年7月17日. (口頭発表)</p></li>
+<li><p><u>河村悠太</u> (2018). 「他者の目」は利他行動を促進するのか.
+第34回広島社会心理学研究会, 広島大学, 2018年6月9日. (口頭発表)</p></li>
+<li><p><u>Kawamura, Y.</u> (2017). The effect of reputational concerns
+on altruistic behavior in daily life. Leading Graduate Schools Forum
+2017, Nagoya, Japan, October 20.</p></li>
+<li><p><u>河村悠太</u> (2017).
+『他者の目』が利他行動を促進するとき　－社会的規範の調整効果－.
+心の先端研究ユニットコロキアム, 京都大学, 2017年6月27日.
+(口頭発表).</p></li>
+<li><p><u>河村悠太</u> (2016). The effect of reputational concerns on
+altruistic behavior. 心の先端研究ユニット「若手研究者交流大会」,
+京都大学, 2016年6月11日. (ポスター発表).</p></li>
+<li><p>市村賢士郎・伊川美保・<u>河村悠太</u>・Arseny
+Tolmachev・長見祐暉・高橋雄介・楠見孝 (2015).
+ラーニングコモンズにおける学習環境をデザインする.
+第21回大学教育研究フォーラム, 京都, 2015年3月13日-14日. (ポスター発表)
+<br/><br/></p></li>
 </ol>
 </div>
 <div id="書籍" class="section level3">
 <h3>書籍</h3>
 <ol style="list-style-type: decimal">
-<li>河村悠太 (訳). 後藤崇志・日道俊之・小宮あすか・楠見　孝 (監訳). 未来思考の心理学 予測・計画・達成する心のメカニズム. 北大路書房 (Oettingen, G., Sevincer, A. T., &amp; Gollwitzer, P. (Eds.). (2018). The psychology of thinking about the future. The Guilford Press.). <a href="https://www.kitaohji.com/book/b589873.html" target="_blank">link</a> <br/><br/></li>
+<li>河村悠太 (訳). 後藤崇志・日道俊之・小宮あすか・楠見　孝 (監訳).
+未来思考の心理学 予測・計画・達成する心のメカニズム. 北大路書房
+(Oettingen, G., Sevincer, A. T., &amp; Gollwitzer, P. (Eds.). (2018).
+The psychology of thinking about the future. The Guilford Press.).
+<a href="https://www.kitaohji.com/book/b589873.html" target="_blank">link</a>
+<br/><br/></li>
 </ol>
 </div>
 <div id="その他" class="section level3">
 <h3>その他</h3>
 <ol style="list-style-type: decimal">
-<li><p>現代思想2020年9月号 研究手帖「利他行動を測る」, 青土社, 2020年8月27日. <a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a> <br/><br/></p></li>
-<li><p>京都大学 研究報告「2種類の評判への関心と日常の利他行動の関連 －周りから好かれたい人、嫌われたくない人ほど人助けをよくするか－」2017年9月27日. <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2017/170915_1.html" target="_blank">link</a> <br/><br/></p></li>
-<li><p>京都大学教育学研究科 教育認知心理学講座 「大学院生の声 講座紹介」2015年5月27日. <a href="http://cogpsy.educ.kyoto-u.ac.jp/inside/index.html#article05" target="_blank">link</a></p></li>
+<li><p>現代思想2020年9月号 研究手帖「利他行動を測る」, 青土社,
+2020年8月27日.
+<a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a>
+<br/><br/></p></li>
+<li><p>京都大学 研究報告「2種類の評判への関心と日常の利他行動の関連
+－周りから好かれたい人、嫌われたくない人ほど人助けをよくするか－」2017年9月27日.
+<a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2017/170915_1.html" target="_blank">link</a>
+<br/><br/></p></li>
+<li><p>京都大学教育学研究科 教育認知心理学講座 「大学院生の声
+講座紹介」2015年5月27日.
+<a href="http://cogpsy.educ.kyoto-u.ac.jp/inside/index.html#article05" target="_blank">link</a></p></li>
 </ol>
 </div>
 </div>
@@ -455,7 +587,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

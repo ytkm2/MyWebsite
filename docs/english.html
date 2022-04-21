@@ -13,13 +13,22 @@
 
 <title>Yuta Kawamura</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -48,11 +57,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -65,32 +69,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -102,10 +81,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -122,40 +97,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -183,7 +134,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -195,7 +146,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -206,10 +157,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -221,7 +185,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -288,7 +251,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -299,7 +262,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -326,7 +289,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -338,11 +301,13 @@ $(document).ready(function () {
 <div id="profile" class="section level2">
 <h2>Profile</h2>
 <p>Name: Yuta Kawamura (Ph.D)</p>
-<p>Affiliation: Graduate School of Humanities and Sustainable System Sciences, Osaka Prefecture University</p>
-<p>E-mail: kawamura[at]hs.osakafu-u.ac.jp</p>
+<p>Affiliation: Graduate School of Sustainable System Sciences, Osaka
+Metropolitan University</p>
+<p>E-mail: ykawamura[at]omu.ac.jp</p>
 <p>Research interests: Altruism, Reputation, Helping Behavior etc.</p>
 <p><a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a></p>
-<p><a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar Citations</a> <br/><br/></p>
+<p><a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google
+Scholar Citations</a> <br/><br/></p>
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
@@ -352,41 +317,68 @@ $(document).ready(function () {
 </div>
 <div id="professional-experience" class="section level2">
 <h2>Professional Experience</h2>
-<p>2021.4 - present Associate Professor (Osaka Prefecture University)</p>
-<p>2019.9 - 2019.11 Visiting Researcher (University of Guelph, Canada)</p>
-<p>2019.4 - 2021.3 Research Fellow (PD), Japan Society for the Promotion of Sciences</p>
-<p>2016.4 - 2019.3 Research Fellow (DC1), Japan Society for the Promotion of Sciences <br/><br/></p>
+<p>2022.4 - present Associate Professor (Osaka Metropolitan
+University)</p>
+<p>2021.4 - 2022.3 Associate Professor (Osaka Prefecture University)</p>
+<p>2019.9 - 2019.11 Visiting Researcher (University of Guelph,
+Canada)</p>
+<p>2019.4 - 2021.3 Research Fellow (PD), Japan Society for the Promotion
+of Sciences</p>
+<p>2016.4 - 2019.3 Research Fellow (DC1), Japan Society for the
+Promotion of Sciences <br/><br/></p>
 <div id="ta-ra-oa-and-part-time-lecturer" class="section level3">
 <h3>TA, RA, OA, and Part-time Lecturer</h3>
-<p>2020.9 - 2021.3 Part-time Lecturer (Scaling Training), Konan University</p>
-<p>2019.4 - 2019.9 Part-time Lecturer (Social Psychology), Kobe Shoin Women’s University</p>
-<p>2019.4 - 2019.6 Part-time Lecturer (Basic Information), Kobe University</p>
-<p>2019.4 - 2019.6, 2020.6-2020.9 Part-time Lecturer (Psychology A), Kobe University</p>
-<p>2018.4 - 2019.3 Part-time Lecturer (Research Methods for the Studies of Human Behaviors), The University of Shiga Prefecture</p>
-<p>2015.1 - 2015.3 Office Assistant, Graduate School of Education, Kyoto University</p>
-<p>2014.6 - 2017.3 Teaching Assistant, Academic Center for Computing and Media Studies, Kyoto University</p>
+<p>2020.9 - 2021.3 Part-time Lecturer (Scaling Training), Konan
+University</p>
+<p>2019.4 - 2019.9 Part-time Lecturer (Social Psychology), Kobe Shoin
+Women’s University</p>
+<p>2019.4 - 2019.6 Part-time Lecturer (Basic Information), Kobe
+University</p>
+<p>2019.4 - 2019.6, 2020.6-2020.9 Part-time Lecturer (Psychology A),
+Kobe University</p>
+<p>2018.4 - 2019.3 Part-time Lecturer (Research Methods for the Studies
+of Human Behaviors), The University of Shiga Prefecture</p>
+<p>2015.1 - 2015.3 Office Assistant, Graduate School of Education, Kyoto
+University</p>
+<p>2014.6 - 2017.3 Teaching Assistant, Academic Center for Computing and
+Media Studies, Kyoto University</p>
 <p>2014.4 - 2014.9 Teaching Assistant, Horikawa High School</p>
-<p>2014.4 - 2019.3 Teaching Assistant, Graduate School of Education, Kyoto University</p>
-<p>2013.4 - 2013.11, 2015.6-2016.3 Office Assistant, Kokoro Research Center, Kyoto University <br/><br/></p>
+<p>2014.4 - 2019.3 Teaching Assistant, Graduate School of Education,
+Kyoto University</p>
+<p>2013.4 - 2013.11, 2015.6-2016.3 Office Assistant, Kokoro Research
+Center, Kyoto University <br/><br/></p>
 </div>
 </div>
 <div id="fellowship" class="section level2">
 <h2>Fellowship</h2>
-<p>2021.4 - 2022.3 Grant for Groundbreaking Young Researchers, Suntory Foundation (1,000,000 yen)</p>
-<p>2019.4 - 2021.3 Research Fellowship for Young Scientists (PD), Japan Society for the Promotion of Science (2,500,000 yen)</p>
-<p>2016.4 - 2019.3 Doctoral Course Fellowship, Japan Society for the Promotion of Science (2,800,000 yen)</p>
-<p>2015.4 - 2016.3 Research Grant, Kyoto University Design School - Collaborative Graduate Program in Design (1,200,000 yen)</p>
-<p>2014.10 - 2015.3 Research Grant, Kyoto University Design School - Collaborative Graduate Program in Design (600,000 yen) <br/><br/></p>
+<p>2022.4 - 2026.3 Grant-in-Aid for Early-Career Scientists, Japan
+Society for the Promotion of Science</p>
+<p>2021.4 - 2022.3 Grant for Groundbreaking Young Researchers, Suntory
+Foundation (1,000,000 yen)</p>
+<p>2019.4 - 2021.3 Research Fellowship for Young Scientists (PD), Japan
+Society for the Promotion of Science (2,500,000 yen)</p>
+<p>2016.4 - 2019.3 Doctoral Course Fellowship, Japan Society for the
+Promotion of Science (2,800,000 yen)</p>
+<p>2015.4 - 2016.3 Research Grant, Kyoto University Design School -
+Collaborative Graduate Program in Design (1,200,000 yen)</p>
+<p>2014.10 - 2015.3 Research Grant, Kyoto University Design School -
+Collaborative Graduate Program in Design (600,000 yen) <br/><br/></p>
 </div>
 <div id="awards" class="section level2">
 <h2>Awards</h2>
-<p>2019 Human Behavior &amp; Evolution Society of Japan, Distinguished Presentation Award</p>
+<p>2019 Human Behavior &amp; Evolution Society of Japan, Distinguished
+Presentation Award</p>
 <p>2019 Kyoto University, President’s Award (100,000 yen)</p>
-<p>2019 Japan Society for the Promotion of Science, Ninth JSPS Ikushi Prize (1,100,000 yen)</p>
-<p>2018 Graduate School of Education (Kyoto University), Distinguished Student Award</p>
-<p>2016 Japanese Group Dynamics Association, Distinguished Presentation Award</p>
-<p>2015 Society for Personality and Social Psychology, Graduate Travel Award ($ 500)</p>
-<p>2014 Japanese Society for Social Psychology, Encouraging Prize for Young Researchers (100,000 yen) <br/><br/></p>
+<p>2019 Japan Society for the Promotion of Science, Ninth JSPS Ikushi
+Prize (1,100,000 yen)</p>
+<p>2018 Graduate School of Education (Kyoto University), Distinguished
+Student Award</p>
+<p>2016 Japanese Group Dynamics Association, Distinguished Presentation
+Award</p>
+<p>2015 Society for Personality and Social Psychology, Graduate Travel
+Award ($ 500)</p>
+<p>2014 Japanese Society for Social Psychology, Encouraging Prize for
+Young Researchers (100,000 yen) <br/><br/></p>
 </div>
 <div id="professional-membership" class="section level2">
 <h2>Professional Membership</h2>
@@ -399,40 +391,123 @@ $(document).ready(function () {
 </div>
 <div id="publications" class="section level2">
 <h2>Publications</h2>
-<div id="journal-articles-peer-reviewed-articles" class="section level3">
+<div id="journal-articles-peer-reviewed-articles"
+class="section level3">
 <h3>Journal Articles (Peer-Reviewed Articles)</h3>
 <ol style="list-style-type: decimal">
-<li><p>Ichimura, K., <u>Kawamura, Y.</u>, Masuda, M., ikawa, M., Takahashi, Y., &amp; Kusumi, T. (in press). The Relationship Between Achievement Goals and Meaningful Work. Japanese Journal of Psychology, 93 (1). (in Japanese with English Abstract)</p></li>
-<li><p><u>Kawamura, Y.</u>, Sasaki, S., &amp; Kusumi, T. (in press). Cultural similarities and differences in lay theories of altruism: Replication of Carlson and Zaki (2018) in a Japanese sample. Asian Journal of Social Psychology. doi: <a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a></p></li>
-<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, Smith, A. R., &amp; Nomura, M. (2021). Exploring the Multidimensional Links between Trait Mindfulness and Trait Empathy. Frontiers in Psychiatry, 12, 498614. doi: <a href="https://doi.org/10.3389/fpsyt.2021.498614" target="_blank">10.3389/fpsyt.2021.498614</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2021). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science, 12(4), 452-460. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2020). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology, 90, 104021. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a></p></li>
-<li><p>Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, &amp; Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically Consistent Concepts on the Same Stereotype Dimension, but may not Spread to the Other Stereotype Dimension. Japanese Psychological Research, 61(2), 83-93. doi: <a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a></p></li>
-<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura, Y.</u>, Hitokoto, H., Koizumi, N., &amp; Yoshikawa, S. (2019). Farming cultivates a community-level shared culture through collective activities: Examining contextual effects with multilevel analyses. Journal of Personality and Social Psychology, 116(1), 1-14. doi: <a href="https://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a></p></li>
-<li><p>Ichimura, K., <u>Kawamura, Y.</u>, Takahashi, Y., Kusumi, T. (2018). Relationships between Environmental Factors of the Learning Commons and Creativity Task Performance. Japanese Journal of Educational Technology, 42(1), 55-64. doi: <a href="https://doi.org/10.15077/jjet.42015" target="_blank">10.15077/jjet.42015</a> (in Japanese with English Abstract)</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between rejection avoidance and altruism is moderated by social norms. Personality and Individual Differences, 129, 24-27. doi: <a href="https://doi.org/10.1016/j.paid.2018.02.038" target="_blank">10.1016/j.paid.2018.02.038</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two types of reputational concern and altruistic behavior in daily life. Personality and Individual Differences, 121, 19-24. doi: <a href="https://doi.org/10.1016/j.paid.2017.09.003" target="_blank">10.1016/j.paid.2017.09.003</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed to men who help young women: Signaling function of male altruism. Letters on Evolutionary Behavioral Science, 2, 45-48. doi: <a href="https://doi.org/10.5178/lebs.2017.64" target="_blank">10.5178/lebs.2017.64</a></p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect of watching eyes on donation. Evolution and Human Behavior, 38, 659-666. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2017.05.003" target="_blank">10.1016/j.evolhumbehav.2017.05.003</a></p></li>
-<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, Davis, M. H., &amp; Nomura, M. (2017). Development of a Japanese version of the Interpersonal Reactivity Index. Japanese Journal of Psychology, 88(1), 61-71. doi: <a href="https://doi.org/10.4992/jjpsy.88.15218" target="_blank">10.4992/jjpsy.88.15218</a> (in Japanese with English Abstract)</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015). The effects of charity advertising on donations and donors’ explicit and implicit evaluations of recipients. Japanese Journal of Psychology, 86 (1), 21-31. doi: <a href="https://doi.org/10.4992/jjpsy.86.14021" target="_blank">10.4992/jjpsy.86.14021</a> (in Japanese with English Abstract) <br/><br/></p></li>
+<li><p>Ichimura, K., <u>Kawamura, Y.</u>, Masuda, M., ikawa, M.,
+Takahashi, Y., &amp; Kusumi, T. (in press). The Relationship Between
+Achievement Goals and Meaningful Work. Japanese Journal of Psychology,
+93 (1). (in Japanese with English Abstract)</p></li>
+<li><p><u>Kawamura, Y.</u>, Sasaki, S., &amp; Kusumi, T. (in press).
+Cultural similarities and differences in lay theories of altruism:
+Replication of Carlson and Zaki (2018) in a Japanese sample. Asian
+Journal of Social Psychology. doi:
+<a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a></p></li>
+<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura,
+Y.</u>, Smith, A. R., &amp; Nomura, M. (2021). Exploring the
+Multidimensional Links between Trait Mindfulness and Trait Empathy.
+Frontiers in Psychiatry, 12, 498614. doi:
+<a href="https://doi.org/10.3389/fpsyt.2021.498614" target="_blank">10.3389/fpsyt.2021.498614</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2021).
+Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social
+Psychological and Personality Science, 12(4), 452-460. doi:
+<a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2020). Altruism does not always
+lead to a good reputation: A normative explanation. Journal of
+Experimental Social Psychology, 90, 104021. doi:
+<a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a></p></li>
+<li><p>Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, &amp;
+Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically
+Consistent Concepts on the Same Stereotype Dimension, but may not Spread
+to the Other Stereotype Dimension. Japanese Psychological Research,
+61(2), 83-93. doi:
+<a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a></p></li>
+<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., <u>Kawamura,
+Y.</u>, Hitokoto, H., Koizumi, N., &amp; Yoshikawa, S. (2019). Farming
+cultivates a community-level shared culture through collective
+activities: Examining contextual effects with multilevel analyses.
+Journal of Personality and Social Psychology, 116(1), 1-14. doi:
+<a href="https://dx.doi.org/10.1037/pspa0000138" target="_blank">10.1037/pspa0000138</a></p></li>
+<li><p>Ichimura, K., <u>Kawamura, Y.</u>, Takahashi, Y., Kusumi, T.
+(2018). Relationships between Environmental Factors of the Learning
+Commons and Creativity Task Performance. Japanese Journal of Educational
+Technology, 42(1), 55-64. doi:
+<a href="https://doi.org/10.15077/jjet.42015" target="_blank">10.15077/jjet.42015</a>
+(in Japanese with English Abstract)</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between
+rejection avoidance and altruism is moderated by social norms.
+Personality and Individual Differences, 129, 24-27. doi:
+<a href="https://doi.org/10.1016/j.paid.2018.02.038" target="_blank">10.1016/j.paid.2018.02.038</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two
+types of reputational concern and altruistic behavior in daily life.
+Personality and Individual Differences, 121, 19-24. doi:
+<a href="https://doi.org/10.1016/j.paid.2017.09.003" target="_blank">10.1016/j.paid.2017.09.003</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed
+to men who help young women: Signaling function of male altruism.
+Letters on Evolutionary Behavioral Science, 2, 45-48. doi:
+<a href="https://doi.org/10.5178/lebs.2017.64" target="_blank">10.5178/lebs.2017.64</a></p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect
+of watching eyes on donation. Evolution and Human Behavior, 38, 659-666.
+doi:
+<a href="https://doi.org/10.1016/j.evolhumbehav.2017.05.003" target="_blank">10.1016/j.evolhumbehav.2017.05.003</a></p></li>
+<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura,
+Y.</u>, Davis, M. H., &amp; Nomura, M. (2017). Development of a Japanese
+version of the Interpersonal Reactivity Index. Japanese Journal of
+Psychology, 88(1), 61-71. doi:
+<a href="https://doi.org/10.4992/jjpsy.88.15218" target="_blank">10.4992/jjpsy.88.15218</a>
+(in Japanese with English Abstract)</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015). The effects of charity
+advertising on donations and donors’ explicit and implicit evaluations
+of recipients. Japanese Journal of Psychology, 86 (1), 21-31. doi:
+<a href="https://doi.org/10.4992/jjpsy.86.14021" target="_blank">10.4992/jjpsy.86.14021</a>
+(in Japanese with English Abstract) <br/><br/></p></li>
 </ol>
 </div>
-<div id="journal-articles-non-peer-reviewed-articles" class="section level3">
+<div id="journal-articles-non-peer-reviewed-articles"
+class="section level3">
 <h3>Journal Articles (Non Peer-Reviewed Articles)</h3>
 <p>None <br/><br/></p>
 </div>
-<div id="presentations-at-international-conferences" class="section level3">
+<div id="presentations-at-international-conferences"
+class="section level3">
 <h3>Presentations (at International Conferences)</h3>
 <ol style="list-style-type: decimal">
-<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2019, 10). Effects of Cost and Benefit of Altruism on Reputation. The annual Darwin Day meeting, St. Catharines, ON, Canada, October 15.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients’ Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.</p></li>
-<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, &amp; Nomura, M. (2016, 7). Relationships between mindfulness and empathy. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of reputational concerns on altruistic behavior. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30. (granted SPSP Student Travel Award)</p></li>
-<li><p>Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>, Hiraoka, D., &amp; Nomura, M. (2016, 1). Domain specific effects of negative emotions on lateral prefrontal cortex activity during inference of others’ mind. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30.</p></li>
-<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in the evaluation of men’s altruistic behavior. The 14th Justice and Morality Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.</p></li>
-<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N., <u>Kawamura, Y.</u>, &amp; Yoshikawa, S. (2015, 2). Farming, but not fishing, cultivates shared culture within a community. The 10th Cultural Psychology Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26. <br/><br/></p></li>
+<li><p><u>Kawamura, Y.</u>, Ohtsubo, Y., &amp; Kusumi, T. (2019, 10).
+Effects of Cost and Benefit of Altruism on Reputation. The annual Darwin
+Day meeting, St. Catharines, ON, Canada, October 15.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift
+Affects Estimates of Recipients’ Appreciation. The 23rd Congress of the
+International Association for Cross-Cultural Psychology, Nagoya, Japan,
+July 30- August 3.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the
+relationship between the Big-Five personality traits and altruistic
+behavior. The 31st International Congress of Psychology, Yokohama,
+Japan, July 24-29.</p></li>
+<li><p>Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura,
+Y.</u>, &amp; Nomura, M. (2016, 7). Relationships between mindfulness
+and empathy. The 31st International Congress of Psychology, Yokohama,
+Japan, July 24-29.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of
+reputational concerns on altruistic behavior. The 17th Annual Meeting of
+Society for Personality and Social Psychology, San Diego, California,
+USA, January 28-30. (granted SPSP Student Travel Award)</p></li>
+<li><p>Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>,
+Hiraoka, D., &amp; Nomura, M. (2016, 1). Domain specific effects of
+negative emotions on lateral prefrontal cortex activity during inference
+of others’ mind. The 17th Annual Meeting of Society for Personality and
+Social Psychology, San Diego, California, USA, January 28-30.</p></li>
+<li><p><u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in
+the evaluation of men’s altruistic behavior. The 14th Justice and
+Morality Preconference (at the 16th Annual Meeting of Society for
+Personality and Social Psychology), Long Beach, California, USA,
+February 26.</p></li>
+<li><p>Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N.,
+<u>Kawamura, Y.</u>, &amp; Yoshikawa, S. (2015, 2). Farming, but not
+fishing, cultivates shared culture within a community. The 10th Cultural
+Psychology Preconference (at the 16th Annual Meeting of Society for
+Personality and Social Psychology), Long Beach, California, USA,
+February 26. <br/><br/></p></li>
 </ol>
 </div>
 </div>
@@ -464,7 +539,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

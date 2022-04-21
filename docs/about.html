@@ -13,13 +13,22 @@
 
 <title>Profile</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -48,11 +57,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -65,32 +69,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -102,10 +81,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -122,40 +97,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -183,7 +134,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -195,7 +146,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -206,10 +157,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -221,7 +185,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -288,7 +251,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -299,7 +262,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -326,7 +289,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -339,15 +302,17 @@ $(document).ready(function () {
 <h3>概要</h3>
 <p>河村悠太 (Yuta Kawamura)</p>
 <p>学位: 博士 (教育学)</p>
-<p>大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授</p>
-<p>Mail: kawamura[at]hs.osakafu-u.ac.jp</p>
+<p>大阪公立大学現代システム科学研究科 准教授</p>
+<p>Mail: ykawamura[at]omu.ac.jp</p>
 <p><a href="https://researchmap.jp/yutak/" target="_blank">Researchmap</a></p>
 <p><a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a></p>
-<p><a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar Citations</a> <br/><br/></p>
+<p><a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google
+Scholar Citations</a> <br/><br/></p>
 </div>
 <div id="研究関心" class="section level3">
 <h3>研究関心</h3>
-<p>利己的な側面と利他的な側面がどのように個人や社会を織りなしているのかということに関心があります。 <br/><br/></p>
+<p>利己的な側面と利他的な側面がどのように個人や社会を織りなしているのかということに関心があります。
+<br/><br/></p>
 </div>
 <div id="学歴" class="section level3">
 <h3>学歴</h3>
@@ -361,8 +326,11 @@ $(document).ready(function () {
 </div>
 <div id="職歴" class="section level3">
 <h3>職歴</h3>
-<p>2021.4 - 現在 大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授</p>
-<p>2019.9 - 2019.11 Visiting Researcher (University of Guelph, Canada)</p>
+<p>2022.4 - 現在 大阪公立大学現代システム科学研究科 准教授</p>
+<p>2021.4 - 2022.3
+大阪府立大学人間社会システム科学研究科現代システム科学専攻 准教授</p>
+<p>2019.9 - 2019.11 Visiting Researcher (University of Guelph,
+Canada)</p>
 <p>2019.4 - 2021.3 日本学術振興会特別研究員PD</p>
 <p>2016.4 - 2019.3 日本学術振興会特別研究員 DC1 <br/><br/></p>
 </div>
@@ -377,7 +345,8 @@ $(document).ready(function () {
 <p>2014.6 - 2017.3 京都大学学術情報メディアセンターTA</p>
 <p>2014.4 - 2014.9 堀川高校人間探求科社会科学ゼミTA</p>
 <p>2014.4 - 2019.3 京都大学教育学部 教育心理学実習TA</p>
-<p>2013.4 - 2013.11, 2015.6 - 2016.3 京都大学こころの未来研究センターOA <br/><br/></p>
+<p>2013.4 - 2013.11, 2015.6 - 2016.3 京都大学こころの未来研究センターOA
+<br/><br/></p>
 </div>
 <div id="受賞歴" class="section level3">
 <h3>受賞歴</h3>
@@ -385,9 +354,13 @@ $(document).ready(function () {
 <p>2019.3 京都大学 総長賞（分野：学業）</p>
 <p>2019.1 第9回（平成30年度）日本学術振興会 育志賞</p>
 <p>2018.11 京都大学大学院教育学研究科長賞（分野：学業）</p>
-<p>2016.11 日本グループ・ダイナミックス学会 2016年度優秀学会発表賞（ポスター発表部門）</p>
-<p>2015.8 Society for Personality and Social Psychology, Graduate Travel Award ($500)</p>
-<p>2015.1 日本社会心理学会 2014年度若手研究者奨励賞 （研究課題『「他者の目」が利他行動を減らすとき：評判への動機と規範情報に着目して』） <br/><br/></p>
+<p>2016.11 日本グループ・ダイナミックス学会
+2016年度優秀学会発表賞（ポスター発表部門）</p>
+<p>2015.8 Society for Personality and Social Psychology, Graduate Travel
+Award ($500)</p>
+<p>2015.1 日本社会心理学会 2014年度若手研究者奨励賞
+（研究課題『「他者の目」が利他行動を減らすとき：評判への動機と規範情報に着目して』）
+<br/><br/></p>
 </div>
 <div id="所属学会" class="section level3">
 <h3>所属学会</h3>
@@ -400,11 +373,16 @@ $(document).ready(function () {
 </div>
 <div id="研究助成" class="section level3">
 <h3>研究助成</h3>
-<p>2021.4 - 2022.4 公益財団法人 サントリー文化財団 若手研究者のためのチャレンジ研究助成</p>
+<p>2022.4 - 2026.3 日本学術振興会 科学研究費助成事業 若手研究</p>
+<p>2021.4 - 2022.4 公益財団法人 サントリー文化財団
+若手研究者のためのチャレンジ研究助成</p>
 <p>2019.4 - 2021.3 日本学術振興会特別研究員 (PD) 特別研究員奨励費</p>
 <p>2016.4 - 2019.3 日本学術振興会特別研究員 (DC1) 特別研究員奨励費</p>
-<p>2015.4 - 2016.3 平成27年度京都大学デザイン学大学院連携プログラム研究助成費</p>
-<p>2014.10 - 2015.3 平成26年度京都大学デザイン学大学院連携プログラム研究助成費 <br/><br/></p>
+<p>2015.4 - 2016.3
+平成27年度京都大学デザイン学大学院連携プログラム研究助成費</p>
+<p>2014.10 - 2015.3
+平成26年度京都大学デザイン学大学院連携プログラム研究助成費
+<br/><br/></p>
 </div>
 <div id="査読歴" class="section level3">
 <h3>査読歴</h3>
@@ -453,7 +431,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

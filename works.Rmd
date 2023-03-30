@@ -3,13 +3,15 @@ title: "Publication"
 output: html_document
 ---
 
-論文の必要な方はkawamura[at]hs.osakafu-u.ac.jpまでご連絡ください。
+論文をご覧いただける方はykawamura[at]omu.ac.jpまでご連絡ください。
 <br/><br/>
 
 ##  {.tabset}
 
 
 ### 論文 (査読有)
+
+1. Kawai, R., & <u>Kawamura, Y.</u> (2023). Parochial Empathy Occurs Regardless of Causal Attribution. Letters on Evolutionary Behavioral Science, 14(1), 13-17. doi: <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">10.5178/lebs.2023.102</a>
 
 1. <u>Kawamura, Y.</u>, Sasaki, S., & Kusumi, T. (2022). Cultural similarities and differences in lay theories of altruism: Replication of Carlson and Zaki (2018) in a Japanese sample. Asian Journal of Social Psychology, 25, 571-576. doi: <a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a>
 
@@ -47,6 +49,7 @@ output: html_document
 <br/><br/>
 
 ### 学会 (国際)
+
 1. Ohtsubo, Y., Suzuki, K., Toyoda, M., <u>Kawamura, Y.</u>, & Ohtsuki, H. (2022, 6). Cooperative intention signaling is evolutionarily stable against mobile defectors. The 33rd annual conference of the Human Behavior and Evolution Society, virtual conference, June 23.
 
 1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (2019, 10). Effects of Cost and Benefit of Altruism on Reputation. The annual Darwin Day meeting, St. Catharines, ON, Canada, October 15. 
@@ -67,9 +70,12 @@ output: html_document
 <br/><br/>
 
 ### 学会 (国内)
-1. <u>河村悠太</u> (2022). 利他的動機に基づく購買行動の評判. 日本NPO学会第24回研究大会, web開催, 2022年6月11日-6月12日. (口頭発表)
 
-1. 佐々木周作・<u>河村悠太</u>・岡田彩・渡邉文隆 (2021). 寄付者とファンドレイザー：寄付促進施策に対する主観的評価. 日本行動経済学会第15回大会, 成城大学, 2021年12月11日-12月12日. (口頭発表)
+1. 日道俊之・<u>河村悠太</u>・後藤崇志 (2022). 日本語版対人反応性指標の因子構造に関する探索的検討 日本心理学会第86回大会, 東京, 2022年9月8日-12月11日. (ポスター発表)
+
+1. <u>河村悠太</u> (2022). 利他的動機に基づく購買行動の評判. 日本NPO学会第24回研究大会企画委員会企画「寄付・ボランティア研究の最前線」, web開催, 2022年6月11日-6月12日. (口頭発表)
+
+1. 佐々木周作・<u>河村悠太</u>・岡田彩・渡邉文隆 (2021). 寄付者とファンドレイザー：寄付促進施策に対する主観的評価. 日本行動経済学会第15回大会, 東京, 2021年12月11日-12月12日. (口頭発表)
 
 1. 福島慎太郎・竹村幸祐・内田由紀子・<u>河村悠太</u> (2021). 信頼は集団レベルで規範に変化する―地域コミュニティ調査データに対するマルチレベル分析―. 日本社会心理学会第62回大会, Web開催, 2021年8月26日-8月27日. (Webポスター発表)
 
@@ -115,6 +121,8 @@ output: html_document
 <br/><br/>
 
 ### 研究会等
+1. <u>河村悠太</u> (2023). 向社会的行動の「良さ」とは. 日本発達心理学会第34回大会ラウンドテーブル「思いやりを複眼的視座から再考する」, 大阪, 2023年3月3日-3月5日. (話題提供者, 口頭発表)
+
 1. <u>河村悠太</u> (2021). 利他行動の評判とは. 第483回関西社会心理学研究会, Web開催, 2021年7月17日. (口頭発表)
 
 1. <u>河村悠太</u> (2018). 「他者の目」は利他行動を促進するのか. 第34回広島社会心理学研究会, 広島大学, 2018年6月9日. (口頭発表)

@@ -17,17 +17,18 @@ output: html_document
 
 ### 近況 {.col-md-6}
 
-論文が出ました。<a href="https://www.sciencedirect.com/science/article/pii/S1090513823000417?dgcid=author" target="_blank">URL</a>
+論文が出ました。<a href="https://www.sciencedirect.com/science/article/pii/S1090513823000417?dgcid=author" target="_blank">URL</a> <a href="https://www.omu.ac.jp/info/research_news/entry-06102.html" target="_blank">日本語での紹介記事</a>
 
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}
 
-2023/5/13 Works, Englishを修正しました
+2023/6/11 Labのページを作りました
 
 
 <details><summary>過去の更新履歴</summary>
 <ul>
+  <li>2023/5/13 Works, Englishを修正しました</li>
   <li>2023/3/30 Works, Englishを修正しました</li>
   <li>2022/12/31 About, Englishを修正しました</li>
   <li>2022/08/09 いろいろ修正しました</li>

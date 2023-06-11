@@ -12,3 +12,5 @@ output: html_document
 #### <a href="http://cogpsy.educ.kyoto-u.ac.jp/" target="_blank">京都大学大学院教育学研究科教育認知心理学講座</a>
 - 大学院時代の所属です。
 
+#### <a href="https://www.omu.ac.jp/sss/undergraduate/psychology/" target="_blank">大阪公立大学現代システム科学域心理学類</a>
+- 現所属です。

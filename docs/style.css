@@ -1,14 +1,14 @@
 
 /*title*/
 h1,h2,h3,h4,h5,h6 {
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic Bold,'Yu Gothic Bold','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;  
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic Bold,'Yu Gothic Bold','メイリオ', Meiryo,'ＭＳＰゴシック','MS PGothic', sans-serif;  
 }
 
 
 body {
 overflow-y: scroll; /* always show scroll bar */
 font-size: 1.8em;
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;  
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳＰゴシック','MS PGothic', sans-serif;  
 }
 
 

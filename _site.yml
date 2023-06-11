@@ -12,6 +12,8 @@ navbar:
       href: works.html
     - text: "Materials"
       href: materials.html
+    - text: "Lab"
+      href: lab.html
     - text: "Links"
       href: links.html
   right:

@@ -11,7 +11,7 @@ output: html_document
 
 ### 論文 (査読有)
 
-1. <u>Kawamura, Y.</u>, & Inaba, M. (in press). Trivial giving as a signal of trustworthiness. Evolution and Human Behavior. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2023.04.001" target="_blank">10.1016/j.evolhumbehav.2023.04.001</a> <a href="https://www.omu.ac.jp/info/research_news/entry-06102.html" target="_blank">日本語での紹介記事</a>
+1. <u>Kawamura, Y.</u>, & Inaba, M. (2023). Trivial giving as a signal of trustworthiness. Evolution and Human Behavior, 44(4), 332-338. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2023.04.001" target="_blank">10.1016/j.evolhumbehav.2023.04.001</a> <a href="https://www.omu.ac.jp/info/research_news/entry-06102.html" target="_blank">日本語での紹介記事</a>
 
 1. Kawai, R., & <u>Kawamura, Y.</u> (2023). Parochial Empathy Occurs Regardless of Causal Attribution. Letters on Evolutionary Behavioral Science, 14(1), 13-17. doi: <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">10.5178/lebs.2023.102</a>
 

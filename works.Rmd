@@ -73,6 +73,11 @@ output: html_document
 
 ### 学会 (国内)
 
+1. 三石宏大・<u>河村悠太</u> (2023). ⼈は罰場⾯を避けるのか？
+―場⾯選択型第三者罰ゲームを⽤いた検討― 日本人間行動進化学会第16回大会, 大阪, 2023年12月2日-12月3日. (ポスター発表)
+
+1. 川口周一郎・<u>河村悠太</u> (2023). 共同収奪ゲームにおける競争的利他主義の検討 日本社会心理学会第64回大会, 東京, 2023年9月7日-9月8日. (ポスター発表)
+
 1. 日道俊之・<u>河村悠太</u>・後藤崇志 (2022). 日本語版対人反応性指標の因子構造に関する探索的検討 日本心理学会第86回大会, 東京, 2022年9月8日-12月11日. (ポスター発表)
 
 1. <u>河村悠太</u> (2022). 利他的動機に基づく購買行動の評判. 日本NPO学会第24回研究大会企画委員会企画「寄付・ボランティア研究の最前線」, web開催, 2022年6月11日-6月12日. (口頭発表)
@@ -140,6 +145,9 @@ output: html_document
 
 ### 書籍
 
+1. 河村悠太. (2023). お人好しは好かれるのか？ 坂本治也編 日本の寄付を科学する. 第16章. 明石書店. <a href="https://www.akashi.co.jp/book/b638361.html" target="_blank">link</a>
+<br/><br/>
+
 1. 河村悠太. (2022). 利他行動の促進・抑制過程ー評判への関心に基づく検討ー. ナカニシヤ出版. <a href="http://www.nakanishiya.co.jp/book/b597556.html" target="_blank">link</a>
 <br/><br/>
 
@@ -148,6 +156,10 @@ output: html_document
 
 
 ### その他
+
+
+1. Human Behaivior & Evolution Society「The adaptive value of trivial giving: it signals one’s trustworthiness」2023年8月15日. <a href="https://www.hbes.com/the-adaptive-value-of-trivial-giving/" target="_blank">link</a>
+<br/><br/>
 
 1. 朝日新聞「人はなぜお土産渡す？　「ささいな贈り物」の目的、ゲーム理論で研究」2023年7月23日. <a href="https://digital.asahi.com/articles/ASR7N43DGR75PLBJ003.html" target="_blank">link</a>
 <br/><br/>

@@ -17,16 +17,17 @@ output: html_document
 
 ### 近況 {.col-md-6}
 
-一章執筆した本が出ました。 <a href="https://www.akashi.co.jp/book/b638361.html" target="_blank">link</a>
+ラボがにぎやかになってきました。
 
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}
 
-2023/12/22 いろいろ修正しました
+2024/04/01 いろいろ修正しました
 
 <details><summary>過去の更新履歴</summary>
 <ul>
+  <li>2023/12/22 いろいろ修正しました</li>
   <li>2023/7/29 色々修正しました</li>
   <li>2023/6/11 Labのページを作りました</li>
   <li>2023/5/13 Works, Englishを修正しました</li>

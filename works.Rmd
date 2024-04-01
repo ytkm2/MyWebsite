@@ -11,6 +11,8 @@ output: html_document
 
 ### 論文 (査読有)
 
+1. <u>Kawamura, Y.</u>, & Totake, K. (in press). Pluralistic Ignorance did not Prevent Paternity Leave in Japan in December 2021: A Replication Study. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12507" target="_blank">10.1111/jpr.12507</a>
+
 1. <u>Kawamura, Y.</u>, & Inaba, M. (2023). Trivial giving as a signal of trustworthiness. Evolution and Human Behavior, 44(4), 332-338. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2023.04.001" target="_blank">10.1016/j.evolhumbehav.2023.04.001</a> <a href="https://www.omu.ac.jp/info/research_news/entry-06102.html" target="_blank">日本語での紹介記事</a>
 
 1. Kawai, R., & <u>Kawamura, Y.</u> (2023). Parochial Empathy Occurs Regardless of Causal Attribution. Letters on Evolutionary Behavioral Science, 14(1), 13-17. doi: <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">10.5178/lebs.2023.102</a>
@@ -128,6 +130,8 @@ output: html_document
 <br/><br/>
 
 ### 研究会等
+1. <u>Kawamura, Y.</u> (2024). Rethinking the roles of reputation, trivial giving, and altruistic punishment. Cooperation Colloquia, Online, March 8.
+
 1. <u>河村悠太</u> (2023). 向社会的行動の「良さ」とは. 日本発達心理学会第34回大会ラウンドテーブル「思いやりを複眼的視座から再考する」, 大阪, 2023年3月3日-3月5日. (話題提供者, 口頭発表)
 
 1. <u>河村悠太</u> (2021). 利他行動の評判とは. 第483回関西社会心理学研究会, Web開催, 2021年7月17日. (口頭発表)

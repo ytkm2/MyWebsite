@@ -10,12 +10,11 @@ output: html_document
 
 大学院
 
-- D1 1名
+- D1　Cleone Mitsui
 
-- M2 1名
+- M2　川口 周一郎
 
-- M1 2名
-<br/><br/>
+- M1　伊藤 颯希　三石 宏大
 
 学部
 

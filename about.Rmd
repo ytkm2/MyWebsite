@@ -118,7 +118,9 @@ Human Behavior & Evolution Society
 
 ### 研究助成
 
-2022.4 - 2026.3 日本学術振興会 科学研究費助成事業 若手研究
+2024.4 - 2028.3 日本学術振興会 科学研究費助成事業 基盤研究(B) [分担]
+
+2022.4 - 2026.3 日本学術振興会 科学研究費助成事業 若手研究 [代表]
 
 2021.4 - 2022.4 公益財団法人 サントリー文化財団 若手研究者のためのチャレンジ研究助成
 
@@ -133,19 +135,19 @@ Human Behavior & Evolution Society
 
 ### 査読歴
 
-European Journal of Social Psychology
+Journal of Personality and Social Psychology
+
+Journal of Experimental and Social Psychology
 
 Personality and Social Psychology Bulletin
 
 Social Psychological and Personality Science
 
+European Journal of Social Psychology
+
+Developmental Science
+
 Current Psychology
-
-Japanese Psychological Research
-
-Psychologia
-
-認知科学
 
 Asian Journal of Social Psychology
 
@@ -155,7 +157,11 @@ Journal of Behavioral and Experimental Economics
 
 Personality and Individual Differences
 
-Journal of Experimental and Social Psychology
+Japanese Psychological Research
+
+Psychologia
+
+認知科学
 <br/><br/>
 
 ### 学会活動

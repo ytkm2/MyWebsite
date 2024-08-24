@@ -3,7 +3,26 @@ title: "Lab"
 output: html_document
 ---
 
-本研究室では様々な心理・社会的現象について社会心理学・進化心理学的な視点から研究を進めています。進学やポスドクに関心のある方は，ykawamura[at]omu.ac.jpまでご連絡ください。
+本研究室では，利他性に関する研究を中心に，様々な心理・社会的現象について社会心理学・進化心理学的な視点から研究を進めています。進学やポスドクに関心のある方は，ykawamura[at]omu.ac.jpまでお気軽にご連絡ください。
+<br/><br/>
+
+### Lab News
+
+ラボメンバーのかかわった研究成果や助成・受賞をまとめています。
+
+- 2024.8 伊藤颯希さん，三石宏大さん，川口周一郎さん，Cleone Mitsuiさんが日本社会心理学会第64回大会で発表予定です
+
+- 2024.7 三石宏大さんが第27回実験社会科学カンファレンスで発表しました
+
+- 2024.1 論文が出版されました <a href="https://doi.org/10.1111/jpr.12507" target="_blank">(Kawamura & Totake, in press)</a>
+
+- 2024.1 川口周一郎さんが2023年度日本社会心理学会若手研究者奨励賞を受賞しました <a href="https://www.socialpsychology.jp/wp-content/uploads/2023encouraging_prize.pdf" target="_blank">[link]</a>
+
+- 2024.12 三石宏大さんが日本人間行動進化学会第16回大会で発表しました
+
+- 2023.9 川口周一郎さんが日本社会心理学会第64回大会で発表しました
+
+- 2023.3 論文が出版されました <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">(Kawai & Kawamura, 2023)</a>
 <br/><br/>
 
 ### 現在のメンバー
@@ -39,14 +58,11 @@ output: html_document
 
 2022年度卒業生3名
 
-- 日本における集団間共感バイアスについての検討 <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">link</a>
+- 日本における集団間共感バイアスについての検討 <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">[link]</a>
 
 - 共同収奪ゲームにおける競争的利他主義の検討
 
-- 男性の育休取得に関する社会的変化と心理的要因の関連 <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jpr.12507" target="_blank">link</a>
+- 男性の育休取得に関する社会的変化と心理的要因の関連 <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jpr.12507" target="_blank">[link]</a>
 <br/><br/>
 
-### ゼミメンバーの受賞歴等
-
-- 2023年度日本社会心理学会若手研究者奨励賞
 

@@ -10,7 +10,11 @@ output: html_document
 
 ラボメンバーのかかわった研究成果や助成・受賞をまとめています。
 
-- 2024.8 伊藤颯希さん，三石宏大さん，川口周一郎さん，Cleone Mitsuiさんが日本社会心理学会第64回大会で発表予定です
+- 2024.10 論文が出版されました <a href="https://rdcu.be/dXE7B" target="_blank">(Kawaguchi & Kawamura, in press)</a>
+
+- 2024.10 Cleone Mitsuiさんが松下幸之助記念志財団2024年度研究助成の助成対象者に選ばれました。<a href="https://matsushita-konosuke-zaidan.or.jp/works/research/promotion_research_02_index.html" target="_blank">[link]</a>
+
+- 2024.8 伊藤颯希さん，三石宏大さん，川口周一郎さん，Cleone Mitsuiさんが日本社会心理学会第64回大会で発表しました
 
 - 2024.7 三石宏大さんが第27回実験社会科学カンファレンスで発表しました
 
@@ -38,6 +42,8 @@ output: html_document
 学部
 
 - 4年生 4名
+
+- 3年生 3名
 <br/><br/>
 
 ### 過去の卒論タイトル
@@ -60,7 +66,7 @@ output: html_document
 
 - 日本における集団間共感バイアスについての検討 <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">[link]</a>
 
-- 共同収奪ゲームにおける競争的利他主義の検討
+- 共同収奪ゲームにおける競争的利他主義の検討 <a href="https://rdcu.be/dXE7B" target="_blank">[link]</a>
 
 - 男性の育休取得に関する社会的変化と心理的要因の関連 <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jpr.12507" target="_blank">[link]</a>
 <br/><br/>

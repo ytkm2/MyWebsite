@@ -11,6 +11,8 @@ output: html_document
 
 ### 論文 (査読有)
 
+1. Mitsuishi, K., & <u>Kawamura, Y.</u> (2025). Avoidance of altruistic punishment: Testing with a situation-selective third-party punishment game. Journal of Experimental Social Psychology, 116, 104695. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082?dgcid=coauthor" target="_blank">10.1016/j.jesp.2024.104695</a>
+
 1. Kawaguchi, S., & <u>Kawamura, Y.</u> (2024). Partner Choice does not Promote Altruism in a Joint Taking Game. Evolutionary Psychological Science, 1-7. doi: <a href="https://rdcu.be/dXE7B" target="_blank">10.1007/s40806-024-00414-2</a>
 
 1. <u>Kawamura, Y.</u>, & Totake, K. (in press). Pluralistic Ignorance did not Prevent Paternity Leave in Japan in December 2021: A Replication Study. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12507" target="_blank">10.1111/jpr.12507</a>

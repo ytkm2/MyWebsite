@@ -10,7 +10,9 @@ output: html_document
 
 ラボメンバーのかかわった研究成果や助成・受賞をまとめています。
 
-- 2024.10 論文が出版されました <a href="https://rdcu.be/dXE7B" target="_blank">(Kawaguchi & Kawamura, in press)</a>
+- 2024.11 論文が出版されました <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082?dgcid=coauthor" target="_blank">(Mitsuichi & Kawamura, 2025)</a>
+
+- 2024.10 論文が出版されました <a href="https://rdcu.be/dXE7B" target="_blank">(Kawaguchi & Kawamura, 2024)</a>
 
 - 2024.10 Cleone Mitsuiさんが松下幸之助記念志財団2024年度研究助成の助成対象者に選ばれました。<a href="https://matsushita-konosuke-zaidan.or.jp/works/research/promotion_research_02_index.html" target="_blank">[link]</a>
 
@@ -60,7 +62,7 @@ output: html_document
 
 - 援助要請を妨げる心理的要因の検討
 
-- 人は罰場面を回避するのか？―場面選択型第三者罰ゲームを用いた検討―
+- 人は罰場面を回避するのか？―場面選択型第三者罰ゲームを用いた検討― <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082?dgcid=coauthor" target="_blank">[link]</a>
 
 2022年度卒業生3名
 

@@ -1,17 +1,65 @@
 
-/*title*/
-h1,h2,h3,h4,h5,h6 {
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic Bold,'Yu Gothic Bold','メイリオ', Meiryo,'ＭＳＰゴシック','MS PGothic', sans-serif;  
-}
+/* Google Fontsを@importで読み込み */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=M+PLUS+1p:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
 
-
+/*-----------------------------------
+  Body
+------------------------------------*/
 body {
-overflow-y: scroll; /* always show scroll bar */
-font-size: 1.8em;
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳＰゴシック','MS PGothic', sans-serif;  
+  overflow-y: scroll; /* always show scroll bar */
+  font-size: 1.8em;
+  font-family: 'Noto Sans JP', 'Roboto', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.8;
+}
+
+/*-----------------------------------
+  headings
+------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'M PLUS 1p', 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 
+/*-----------------------------------
+  link
+------------------------------------*/
+a {
+  color: #375a7f;
+  background-color: #e7e7e7;
+  padding: 0.1em 0.2em;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: color 0.2s, text-decoration 0.2s, background-color 0.2s;
+}
+
+a:hover,
+a:focus {
+  color: #2c4160;
+  text-decoration: underline; 
+}
+
+a:active {
+  color: #1f2c3f;
+}
+
+a:visited {
+  color: #375a7f;
+}
+
+/*-----------------------------------
+  Navbar
+------------------------------------*/
+/* navbar link*/
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+  background-color: transparent; 
+  border-radius: 0;
+}
+
+/* navbar default */
 .navbar-default {
 background-color: #223e80; /* background */
 border-color: #16264d; /* border */
@@ -24,10 +72,40 @@ border-color: #16264d; /* border */
 background-color: #14254c;
 }
 
-
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
 color: #ffffff;
 background-color: #1b3166;
 }
 
+/*-----------------------------------
+  更新履歴
+------------------------------------*/
+/* summary部分 */
+.update-history summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+/* アイコンの余白や回転アニメーション */
+.update-history summary .icon {
+  display: inline-block;  
+  transition: transform 0.2s ease;
+}
+
+/* detailsが開いている時にアイコンを回転 */
+.update-history[open] summary .icon {
+  transform: rotate(90deg);
+}
+
+
+/*-----------------------------------
+  Lab News
+------------------------------------*/
+.lab-news {
+  max-height: 500px; 
+  overflow-y: auto; 
+  padding: 0.5em; 
+  border: 1px solid #ddd; 
+  background-color: #f9f9f9; 
+}

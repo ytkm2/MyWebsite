@@ -13,9 +13,7 @@ E-mail: ykawamura[at]omu.ac.jp
 
 Research interests: Altruism, Reputation, Helping Behavior etc.
 
-<a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a>
-
-<a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar Citations</a>
+<a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a>  <a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar Citations</a>
 <br/><br/>
 
 ## Education
@@ -116,6 +114,8 @@ Human Behavior & Evolution Society
 
 ### Journal Articles (Peer-Reviewed Articles)
 
+1. Himichi, T., <u>Kawamura, Y.</u>, & Goto, T. (in press).  Investigating the factor structure of the Japanese version of the Interpersonal Reactivity Index. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12567" target="_blank">10.1111/jpr.12567</a>
+
 1. Mitsuishi, K., & <u>Kawamura, Y.</u> (2025). Avoidance of altruistic punishment: Testing with a situation-selective third-party punishment game. Journal of Experimental Social Psychology, 116, 104695. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082?dgcid=coauthor" target="_blank">10.1016/j.jesp.2024.104695</a>
 
 1. Kawaguchi, S., & <u>Kawamura, Y.</u> (2024). Partner Choice does not Promote Altruism in a Joint Taking Game. Evolutionary Psychological Science, 1-7. doi: <a href="https://rdcu.be/dXE7B" target="_blank">10.1007/s40806-024-00414-2</a>
@@ -165,6 +165,9 @@ None
 
 ### Presentations (at International Conferences)
 
+1. Mitsui, C., <u>Kawamura, Y.</u> (2025, 2). “Staying out of it” in moral and political disagreements backfires differently among Americans and Japanese. The 25th Annual Convention of Society for Personality and Social Psychology, Denver, CO, United States, February 20-22.
+
+1. Mitsui, C., <u>Kawamura, Y.</u> (2025, 2). Can generative AI predict political attitudes cross-culturally? Insights from American and Japanese samples. Advances in Cultural Psychology Preconference (at the 25th Annual Convention of Society for Personality and Social Psychology), Denver, CO, United States, February 20.
 
 1. Ohtsubo, Y., Suzuki, K., Toyoda, M., <u>Kawamura, Y.</u>, & Ohtsuki, H. (2022, 6). Cooperative intention signaling is evolutionarily stable against mobile defectors. The 33rd annual conference of the Human Behavior and Evolution Society, virtual conference, June 23.
 

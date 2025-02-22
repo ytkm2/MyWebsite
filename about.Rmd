@@ -4,21 +4,15 @@ output: html_document
 ---
 
 
-### 概要
-
 河村悠太 (Yuta Kawamura)
 
 学位: 博士 (教育学)
 
-大阪公立大学現代システム科学研究科 准教授
+大阪公立大学大学院現代システム科学研究科 准教授
 
 Mail: ykawamura[at]omu.ac.jp
 
-<a href="https://researchmap.jp/yutak/" target="_blank">Researchmap</a>
-
-<a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a>
-
-<a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar Citations</a>
+<a href="https://researchmap.jp/yutak/" target="_blank">Researchmap</a>  <a href="https://www.researchgate.net/profile/Yuta_Kawamura" target="_blank">ResearchGate</a>  <a href="https://scholar.google.co.jp/citations?user=YCD4gaoAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar Citations</a>
 <br/><br/>
 
 ### 研究関心

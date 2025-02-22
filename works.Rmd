@@ -6,12 +6,12 @@ output: html_document
 論文をご覧いただける方はykawamura[at]omu.ac.jpまでご連絡ください。
 <br/><br/>
 
-##  {.tabset}
-
 
 ### 論文 (査読有)
 
-1. Mitsuishi, K., & <u>Kawamura, Y.</u> (2025). Avoidance of altruistic punishment: Testing with a situation-selective third-party punishment game. Journal of Experimental Social Psychology, 116, 104695. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082" target="_blank">10.1016/j.jesp.2024.104695</a>
+1. Himichi, T., <u>Kawamura, Y.</u>, & Goto, T. (in press).  Investigating the factor structure of the Japanese version of the Interpersonal Reactivity Index. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12567" target="_blank">10.1111/jpr.12567</a>
+
+1. Mitsuishi, K., & <u>Kawamura, Y.</u> (2025). Avoidance of altruistic punishment: Testing with a situation-selective third-party punishment game. Journal of Experimental Social Psychology, 116, 104695. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082" target="_blank">10.1016/j.jesp.2024.104695</a> <a href="https://www.omu.ac.jp/info/research_news/entry-14750.html" target="_blank">日本語での紹介記事</a>
 
 1. Kawaguchi, S., & <u>Kawamura, Y.</u> (2024). Partner Choice does not Promote Altruism in a Joint Taking Game. Evolutionary Psychological Science, 1-7. doi: <a href="https://rdcu.be/dXE7B" target="_blank">10.1007/s40806-024-00414-2</a>
 
@@ -57,6 +57,10 @@ output: html_document
 <br/><br/>
 
 ### 学会 (国際)
+
+1. Mitsui, C., <u>Kawamura, Y.</u> (2025, 2). “Staying out of it” in moral and political disagreements backfires differently among Americans and Japanese. The 25th Annual Convention of Society for Personality and Social Psychology, Denver, CO, United States, February 20-22.
+
+1. Mitsui, C., <u>Kawamura, Y.</u> (2025, 2). Can generative AI predict political attitudes cross-culturally? Insights from American and Japanese samples. Advances in Cultural Psychology Preconference (at the 25th Annual Convention of Society for Personality and Social Psychology), Denver, CO, United States, February 20.
 
 1. Ohtsubo, Y., Suzuki, K., Toyoda, M., <u>Kawamura, Y.</u>, & Ohtsuki, H. (2022, 6). Cooperative intention signaling is evolutionarily stable against mobile defectors. The 33rd annual conference of the Human Behavior and Evolution Society, virtual conference, June 23.
 
@@ -146,6 +150,7 @@ output: html_document
 <br/><br/>
 
 ### 研究会等
+
 1. 三石宏大・<u>河村悠太</u> (2024). 罰行動回避プロセス：選択オプション付場面選択型第三者罰ゲームを用いた検討 第27回実験社会科学カンファレンス, 大阪, 2024年7月20日-7月21日. (口頭発表)
 
 1. <u>Kawamura, Y.</u> (2024). Rethinking the roles of reputation, trivial giving, and altruistic punishment. Cooperation Colloquia, Online, March 8.
@@ -167,32 +172,25 @@ output: html_document
 
 ### 書籍
 
-1. 河村悠太. (2023). お人好しは好かれるのか？ 坂本治也編 日本の寄付を科学する. 第16章. 明石書店. <a href="https://www.akashi.co.jp/book/b638361.html" target="_blank">link</a>
-<br/><br/>
+1. 河村悠太. (2023). お人好しは好かれるのか？ 坂本治也編 日本の寄付を科学する. 第16章. 明石書店. <a href="https://www.akashi.co.jp/book/b638361.html" target="_blank">[link]</a>
 
-1. 河村悠太. (2022). 利他行動の促進・抑制過程ー評判への関心に基づく検討ー. ナカニシヤ出版. <a href="http://www.nakanishiya.co.jp/book/b597556.html" target="_blank">link</a>
-<br/><br/>
+1. 河村悠太. (2022). 利他行動の促進・抑制過程ー評判への関心に基づく検討ー. ナカニシヤ出版. <a href="http://www.nakanishiya.co.jp/book/b597556.html" target="_blank">[link]</a>
 
-1. 河村悠太 (訳). 後藤崇志・日道俊之・小宮あすか・楠見　孝 (監訳). 未来思考の心理学 予測・計画・達成する心のメカニズム. 北大路書房 (Oettingen, G., Sevincer, A. T., & Gollwitzer, P. (Eds.). (2018). The psychology of thinking about the future. The Guilford Press.). <a href="https://www.kitaohji.com/book/b589873.html" target="_blank">link</a>
+1. 河村悠太 (訳). 後藤崇志・日道俊之・小宮あすか・楠見　孝 (監訳). 未来思考の心理学 予測・計画・達成する心のメカニズム. 北大路書房 (Oettingen, G., Sevincer, A. T., & Gollwitzer, P. (Eds.). (2018). The psychology of thinking about the future. The Guilford Press.). <a href="https://www.kitaohji.com/book/b589873.html" target="_blank">[link]</a>
 <br/><br/>
-
 
 ### その他
 
-1. Human Behaivior & Evolution Society「The adaptive value of trivial giving: it signals one’s trustworthiness」2023年8月15日. <a href="https://www.hbes.com/the-adaptive-value-of-trivial-giving/" target="_blank">link</a>
-<br/><br/>
+1. Human Behaivior & Evolution Society「The adaptive value of trivial giving: it signals one’s trustworthiness」2023年8月15日. <a href="https://www.hbes.com/the-adaptive-value-of-trivial-giving/" target="_blank">[link]</a>
 
-1. 朝日新聞「人はなぜお土産渡す？　「ささいな贈り物」の目的、ゲーム理論で研究」2023年7月23日. <a href="https://digital.asahi.com/articles/ASR7N43DGR75PLBJ003.html" target="_blank">link</a>
-<br/><br/>
+1. 朝日新聞「人はなぜお土産渡す？　「ささいな贈り物」の目的、ゲーム理論で研究」2023年7月23日. <a href="https://digital.asahi.com/articles/ASR7N43DGR75PLBJ003.html" target="_blank">[link]</a>
 
-1. 大阪公立大学 最新の研究成果「ちょっとしたプレゼントの社会的機能を検証～人はなぜ些細な贈与をするのか～」2023年5月29日. <a href="https://www.omu.ac.jp/info/research_news/entry-06102.html" target="_blank">link</a>
-<br/><br/>
+1. 大阪公立大学 最新の研究成果「ちょっとしたプレゼントの社会的機能を検証～人はなぜ些細な贈与をするのか～」2023年5月29日. <a href="https://www.omu.ac.jp/info/research_news/entry-06102.html" target="_blank">[link]</a>
 
-1. 現代思想2020年9月号 研究手帖「利他行動を測る」, 青土社, 2020年8月27日. <a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">link</a>
-<br/><br/>
+1. 現代思想2020年9月号 研究手帖「利他行動を測る」, 青土社, 2020年8月27日. <a href="http://www.seidosha.co.jp/book/index.php?id=3465" target="_blank">[link]</a>
 
-1. 京都大学 研究報告「2種類の評判への関心と日常の利他行動の関連 －周りから好かれたい人、嫌われたくない人ほど人助けをよくするか－」2017年9月27日. <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2017/170915_1.html" target="_blank">link</a>
-<br/><br/>
+1. 京都大学 研究報告「2種類の評判への関心と日常の利他行動の関連 －周りから好かれたい人、嫌われたくない人ほど人助けをよくするか－」2017年9月27日. <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2017/170915_1.html" target="_blank">[link]</a>
 
-1. 京都大学教育学研究科 教育認知心理学講座 「大学院生の声 講座紹介」2015年5月27日. <a href="http://cogpsy.educ.kyoto-u.ac.jp/inside/index.html#article05" target="_blank">link</a>
+1. 京都大学教育学研究科 教育認知心理学講座 「大学院生の声 講座紹介」2015年5月27日. <a href="http://cogpsy.educ.kyoto-u.ac.jp/inside/index.html#article05" target="_blank">[link]</a>
+<br/><br/>
 

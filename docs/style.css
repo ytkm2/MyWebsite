@@ -98,6 +98,10 @@ background-color: #1b3166;
   transform: rotate(90deg);
 }
 
+/* スマホ対応 */
+.update-history summary::-webkit-details-marker {
+  display: none;
+}
 
 /*-----------------------------------
   Lab News

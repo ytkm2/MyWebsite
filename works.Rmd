@@ -3,7 +3,7 @@ title: "Publication"
 output: html_document
 ---
 
-論文をご覧いただける方はykawamura[at]omu.ac.jpまでご連絡ください。
+論文にアクセスできない方はykawamura[at]omu.ac.jpまでご連絡ください。
 <br/><br/>
 
 

@@ -12,6 +12,12 @@ output: html_document
 
 <div class="lab-news">
 
+- 2025.4 Cleone Mitsuiさんが日本学術振興会特別研究員DC2に採用されました
+
+- 2025.3 三石宏大さんが大阪公立大学2024年度後期学長表彰を受賞しました <a href="https://www.omu.ac.jp/info/news/entry-16813.html" target="_blank">[link]</a>
+
+- 2025.3 川口周一郎さんが大阪公立大学2024年度研究業績優秀表彰を受賞しました <a href="https://www.omu.ac.jp/info/news/entry-16813.html" target="_blank">[link]</a>
+
 - 2025.2 Cleone MitsuiさんがThe 25th Annual Convention of Society for Personality and Social Psychologyで発表しました
 
 - 2025.1 Cleone Mitsuiさんが計量・数理政治学会（JSQPS）2025年冬季集会で発表しました
@@ -48,24 +54,47 @@ output: html_document
 
 大学院
 
-- D1　Cleone Mitsui
+- D2　Cleone Mitsui
 
-- M2　川口 周一郎
+- M2　伊藤 颯希　三石 宏大
 
-- M1　伊藤 颯希　三石 宏大
+- M1　奈良岡 愛梨
 
 学部
 
-- 4年生 4名
+- 4年生 3名
 
-- 3年生 3名
+<br/><br/>
+
+### 大学院OB/OG
+
+- 2025.3修了　川口 周一郎
+
+<br/><br/>
+
+### 過去の修論タイトル
+
+2024年度
+
+- 効果的利他主義の心理的メカニズム: 寄付効果の認識と共感に着目して
+
 <br/><br/>
 
 ### 過去の卒論タイトル
 
 関連研究が出版されている場合はリンクをつけています。
 
-2023年度卒業生5名
+2024年度
+
+- 向社会的デマが拡散者の印象評価に及ぼす影響
+
+- 命てんでんこへの態度と関連する心理・社会的要因とは
+
+- 視点取得は恩義せがましい援助の印象に影響を与えるか
+
+- 日本とアメリカの映画ポスターにおける文化比較 ―時間による文化の変容－
+
+2023年度
 
 - 目標関連思考によるマインドワンダリングは計画によって解消されるか
 
@@ -77,7 +106,7 @@ output: html_document
 
 - 人は罰場面を回避するのか？―場面選択型第三者罰ゲームを用いた検討― <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082" target="_blank">[link]</a>
 
-2022年度卒業生3名
+2022年度
 
 - 日本における集団間共感バイアスについての検討 <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">[link]</a>
 

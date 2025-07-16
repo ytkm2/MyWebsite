@@ -8,9 +8,13 @@ output: html_document
 
 ### Lab News
 
-ラボメンバーのかかわった研究成果や助成・受賞をまとめています。
+ラボメンバーのかかわった研究成果や助成・受賞等をまとめています。
 
 <div class="lab-news">
+
+- 2025.7 Cleone MitsuiさんがThe 16th Biennial Conference of the Asian Association of Social Psychologyで発表しました
+
+- 2025.6 卒業生の川合蘭さんの活動がメディアで紹介されていました <a href="https://www.hokkaido-np.co.jp/article/1172504/" target="_blank">[link]</a> <a href="https://mainichi.jp/articles/20250701/ddl/k01/040/083000c" target="_blank">[link]</a>
 
 - 2025.4 Cleone Mitsuiさんが日本学術振興会特別研究員DC2に採用されました
 
@@ -62,13 +66,13 @@ output: html_document
 
 学部
 
-- 4年生 3名
+- 4年生 2名
 
 <br/><br/>
 
 ### 大学院OB/OG
 
-- 2025.3修了　川口 周一郎
+- 2025.3 修了　川口 周一郎
 
 <br/><br/>
 
@@ -104,7 +108,7 @@ output: html_document
 
 - 援助要請を妨げる心理的要因の検討
 
-- 人は罰場面を回避するのか？―場面選択型第三者罰ゲームを用いた検討― <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082" target="_blank">[link]</a>
+- 人は罰場面を回避するのか？―場面選択型第三者罰ゲームを用いた検討― <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082" target="_blank">[link]</a> <a href="https://www.omu.ac.jp/info/research_news/entry-14750.html" target="_blank">[日本語紹介記事]</a>
 
 2022年度
 

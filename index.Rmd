@@ -15,19 +15,20 @@ output: html_document
 
 ### 近況 {.col-md-6}
 
-論文が出ました。<a href="https://doi.org/10.1016/j.evolhumbehav.2025.106727" target="_blank">[link]</a>
+寒くなってきました。
 
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}
 
-2025/7/16 いろいろ修正しました
+2025/11/09 Works, Labを修正しました
 
 <details class="update-history">
   <summary>
       <span class="icon">&#9654;</span> 過去の更新履歴
   </summary>
   <ul>
+    <li>2025/7/16 いろいろ修正しました</li>
     <li>2025/4/1 いろいろ修正しました</li>
     <li>2025/2/22 いろいろ修正しました</li>
     <li>2025/1/05 いろいろ修正しました</li>

@@ -12,6 +12,16 @@ output: html_document
 
 <div class="lab-news">
 
+- 2026.2 論文が出版されました <a href="https://doi.org/10.1111/jpr.70019" target="_blank">(Mitsui & Kawamura, in press)</a>
+
+- 2026.2 Cleone MitsuiさんがSociety for Personality and Social PsychologyのInternational Travel/Registration Award ($850) を受賞しました
+
+- 2026.2 三石宏大さん，Cleone MitsuiさんがThe 26th Annual Convention of Society for Personality and Social Psychologyで発表しました
+
+- 2026.1 三石宏大さんが2025年度日本社会心理学会若手研究者奨励賞を受賞しました <a href="https://www.socialpsychology.jp/award/wakate/" target="_blank">[link]</a>
+
+- 2025.11 三石宏大さんが日本人間行動進化学会第18回大会で発表しました
+
 - 2025.9 伊藤颯希さん，三石宏大さん，奈良岡愛梨さん，Cleone Mitsuiさんが日本社会心理学会第66回大会で発表しました
 
 - 2025.7 Cleone MitsuiさんがThe 16th Biennial Conference of the Asian Association of Social Psychologyで発表しました
@@ -82,6 +92,12 @@ output: html_document
 
 ### 過去の修論タイトル
 
+2025年度
+
+- 異文化間における利他罰回避メカニズム
+
+- マインドワンダリングをする人の創造性はどう評価されるのか
+
 2024年度
 
 - 効果的利他主義の心理的メカニズム: 寄付効果の認識と共感に着目して
@@ -91,6 +107,12 @@ output: html_document
 ### 過去の卒論タイトル
 
 関連研究が出版されている場合はリンクをつけています。
+
+2025年度
+
+- 対人サンクコスト効果は評判懸念によってもたらされるか？
+
+- 受刑者・元受刑者の非人間化
 
 2024年度
 

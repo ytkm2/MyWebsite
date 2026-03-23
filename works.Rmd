@@ -9,6 +9,8 @@ output: html_document
 
 ### 論文 (査読有)
 
+1. Cleone, M, & <u>Kawamura, Y.</u> (in press). Playing It Safe? Voters Decode Politicians' Not Answering as an Answer. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.70019" target="_blank">10.1111/jpr.70019</a>
+
 1. <u>Kawamura, Y.</u>, & Barclay, P. (2025). Wealth or generosity? People choose partners based on whichever is more variable. Evolution and Human Behavior. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2025.106727" target="_blank">10.1016/j.evolhumbehav.2025.106727</a>
 
 1. Himichi, T., <u>Kawamura, Y.</u>, & Goto, T. (in press). Investigating the factor structure of the Japanese version of the Interpersonal Reactivity Index. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12567" target="_blank">10.1111/jpr.12567</a>
@@ -60,11 +62,19 @@ output: html_document
 
 ### 学会 (国際)
 
-1. Mitsui, C., <u>Kawamura, Y.</u> (2025, 7). Mapping the Political Middle: Bi-Conceptuals and Non-Endorsers in Japan and the United States [Poster session]. The 16th Biennial Conference of the Asian Association of Social Psychology, Subang Jaya, Selangor, Malaysia, July 10-12.
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2026, 7). Not taking a stance on political issues lowers trust in both Japan and the United States. The 49th Annual Meeting of International Society of Political Psychology, Newcastle, United Kingdom, July 16-29.
 
-1. Mitsui, C., <u>Kawamura, Y.</u> (2025, 2). “Staying out of it” in moral and political disagreements backfires differently among Americans and Japanese. The 25th Annual Convention of Society for Personality and Social Psychology, Denver, CO, United States, February 20-22.
+1. Mitsuishi, K., Maeda, Y., Mitsui, C., & <u>Kawamura, Y.</u> (2026, 6) Avoidance of altruistic punishment in cross-cultural contexts: A comparison of direct and indirect punishment. The International Conference on Social Dilemmas 2026. Shimonoseki, Japan.
 
-1. Mitsui, C., <u>Kawamura, Y.</u> (2025, 2). Can generative AI predict political attitudes cross-culturally? Insights from American and Japanese samples. Advances in Cultural Psychology Preconference (at the 25th Annual Convention of Society for Personality and Social Psychology), Denver, CO, United States, February 20.
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2026, 2). Echoes in the Chat: Conformity in AI-Simulated Political Majorities. The 26th Annual Convention of Society for Personality and Social Psychology, Chicago, Il, United States, February 26-28.
+
+1. Mitsuishi, K., Maeda, Y., Mitsui, C., & <u>Kawamura, Y.</u> (2026, 2). Avoidance of altruistic punishment in cross-cultural contexts. The 26th Annual Convention of Society for Personality and Social Psychology, Chicago, Il, United States, February 26-28.
+
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2025, 7). Mapping the Political Middle: Bi-Conceptuals and Non-Endorsers in Japan and the United States. The 16th Biennial Conference of the Asian Association of Social Psychology, Subang Jaya, Selangor, Malaysia, July 10-12.
+
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2025, 2). “Staying out of it” in moral and political disagreements backfires differently among Americans and Japanese. The 25th Annual Convention of Society for Personality and Social Psychology, Denver, CO, United States, February 20-22.
+
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2025, 2). Can generative AI predict political attitudes cross-culturally? Insights from American and Japanese samples. Advances in Cultural Psychology Preconference (at the 25th Annual Convention of Society for Personality and Social Psychology), Denver, CO, United States, February 20.
 
 1. Ohtsubo, Y., Suzuki, K., Toyoda, M., <u>Kawamura, Y.</u>, & Ohtsuki, H. (2022, 6). Cooperative intention signaling is evolutionarily stable against mobile defectors. The 33rd annual conference of the Human Behavior and Evolution Society, virtual conference, June 23.
 
@@ -86,6 +96,9 @@ output: html_document
 <br/><br/>
 
 ### 学会 (国内)
+
+1. 三石宏大・<u>河村悠太</u> (2025). 人は罰場面を避けるのか？―日本とアメリカにおける国際比較―
+日本人間行動進化学会第18回大会, 東京, 2025年11月29日-11月30日. (ポスター発表)
 
 1. Mitsui, C., <u>Kawamura, Y.</u> (2025). Beyond the Political Moderate and Midpoint Response Bias: Contrasting Japan’s Bi-conceptualism with the American Ideological Structure
 日本社会心理学会第66回大会, 東京, 2025年9月20日-9月21日. (ポスター発表)

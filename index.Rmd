@@ -15,19 +15,20 @@ output: html_document
 
 ### 近況 {.col-md-6}
 
-寒くなってきました。
+温かくなってきました。
 
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}
 
-2025/11/09 Works, Labを修正しました
+2026/03/23 いろいろ修正しました
 
 <details class="update-history">
   <summary>
       <span class="icon">&#9654;</span> 過去の更新履歴
   </summary>
   <ul>
+    <li>2025/11/09 Works, Labを修正しました</li>
     <li>2025/7/16 いろいろ修正しました</li>
     <li>2025/4/1 いろいろ修正しました</li>
     <li>2025/2/22 いろいろ修正しました</li>

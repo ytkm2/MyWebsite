@@ -12,9 +12,17 @@ output: html_document
 
 <div class="lab-news">
 
+- 2026.4 論文が出版されました <a href="https://doi.org/10.1111/spc3.70142" target="_blank">(Kawaguchi & Kawamura, 2026)</a>
+
+- 2026.4 三石宏大さんが日本学術振興会特別研究員DC1に採用されました
+
+- 2026.3 論文が出版されました <a href="https://doi.org/10.1037/ebs0000400" target="_blank">(Naraoka & Kawamura, 2026)</a>
+
+- 2026.3 Cleone Mitsuiさんを第一著者とする発表が日本心理学会優秀発表賞を受賞しました（英語部門との同時受賞） <a href="https://psych.or.jp/prize/conf/" target="_blank">[link]</a>
+
 - 2026.2 論文が出版されました <a href="https://doi.org/10.1111/jpr.70019" target="_blank">(Mitsui & Kawamura, in press)</a>
 
-- 2026.2 Cleone MitsuiさんがSociety for Personality and Social PsychologyのInternational Travel/Registration Award ($850) を受賞しました
+- 2026.2 Cleone MitsuiさんがSociety for Personality and Social PsychologyのInternational Travel/Registration Award ($850) を受賞しました <a href="https://spsp.org/membership/awards/international/registration-award" target="_blank">[link]</a>
 
 - 2026.2 三石宏大さん，Cleone MitsuiさんがThe 26th Annual Convention of Society for Personality and Social Psychologyで発表しました
 
@@ -70,21 +78,23 @@ output: html_document
 
 大学院
 
-- D2　Cleone Mitsui *日本学術振興会特別研究員DC2
+- D3　Cleone Mitsui *日本学術振興会特別研究員DC2
 
-- M2　伊藤 颯希　三石 宏大
+- D1　三石 宏大 *日本学術振興会特別研究員DC1
 
-- M1　奈良岡 愛梨
+- M2　奈良岡 愛梨
+
+- M1　堤 羽音　村上 紗世
 
 学部
 
-- 4年生 2名
-
-- 3年生 3名
+- 4年生 3名
 
 <br/><br/>
 
 ### 大学院OB/OG
+
+- 2026.3 修了　伊藤 颯希
 
 - 2025.3 修了　川口 周一郎
 

@@ -12,6 +12,8 @@ output: html_document
 
 <div class="lab-news">
 
+- 2026.4 論文が出版されました <a href="https://doi.org/10.1525/collabra.160215" target="_blank">(Mitsui & Kawamura, 2026)</a>
+
 - 2026.4 論文が出版されました <a href="https://doi.org/10.1111/spc3.70142" target="_blank">(Kawaguchi & Kawamura, 2026)</a>
 
 - 2026.4 三石宏大さんが日本学術振興会特別研究員DC1に採用されました

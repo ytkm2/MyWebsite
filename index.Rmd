@@ -15,19 +15,20 @@ output: html_document
 
 ### 近況 {.col-md-6}
 
-ラボメンバーの論文が出ています <a href="https://doi.org/10.1525/collabra.160215" target="_blank">(Mitsui & Kawamura, 2026)</a>, <a href="https://doi.org/10.1111/spc3.70142" target="_blank">(Kawaguchi & Kawamura, 2026)</a>, <a href="https://doi.org/10.1037/ebs0000400" target="_blank">(Naraoka & Kawamura, 2026)</a>, <a href="https://doi.org/10.1111/jpr.70019" target="_blank">(Mitsui & Kawamura, in press)</a>
+ラボメンバーの論文が出ています <a href="https://doi.org/10.1016/j.chbah.2026.100331" target="_blank">(Mitsui & Kawamura, 2026)</a>, <a href="https://doi.org/10.1525/collabra.160215" target="_blank">(Mitsui & Kawamura, 2026)</a>, <a href="https://doi.org/10.1111/spc3.70142" target="_blank">(Kawaguchi & Kawamura, 2026)</a>, <a href="https://doi.org/10.1037/ebs0000400" target="_blank">(Naraoka & Kawamura, 2026)</a>, <a href="https://doi.org/10.1111/jpr.70019" target="_blank">(Mitsui & Kawamura, in press)</a>
 
 <br/><br/>
 
 ### 更新履歴 {.col-md-6}
 
-2026/05/06 いろいろ修正しました
+2026/06/27 いろいろ修正しました
 
 <details class="update-history">
   <summary>
       <span class="icon">&#9654;</span> 過去の更新履歴
   </summary>
   <ul>
+    <li>2026/05/06 いろいろ修正しました</li>
     <li>2026/04/16 いろいろ修正しました</li>
     <li>2026/03/23 いろいろ修正しました</li>
     <li>2025/11/09 Works, Labを修正しました</li>

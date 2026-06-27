@@ -9,21 +9,23 @@ output: html_document
 
 ### 論文 (査読有)
 
-1. Mitsui, C., & <u>Kawamura, Y.</u> (2026). How Contextual Variations in Moral and Political Disagreements Influence the Perception of Not Taking a Side. Collabra: Psychology, 12(1). doi: <a href="https://doi.org/10.1525/collabra.160215" target="_blank">10.1525/collabra.160215</a>
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2026). People shift political expression to fit the room in small online group chats: Evidence from AI-simulated chat experiments. Computers in Human Behavior: Artificial Humans, 9, 100331. doi: <a href="https://doi.org/10.1016/j.chbah.2026.100331" target="_blank">10.1016/j.chbah.2026.100331</a>
 
-1. Kawaguchi, S., & <u>Kawamura, Y.</u> (2026). How Emotional Appeals and Deliberative Thinking Relate to Perceived Effectiveness. Social and Personality Psychology Compass. doi: <a href="https://doi.org/10.1111/spc3.70142" target="_blank">10.1111/spc3.70142</a>
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2026). How Contextual Variations in Moral and Political Disagreements Influence the Perception of Not Taking a Side. Collabra: Psychology, 12(1), 160215. doi: <a href="https://doi.org/10.1525/collabra.160215" target="_blank">10.1525/collabra.160215</a>
 
-1. Naraoka, A, & <u>Kawamura, Y.</u> (2026). Does Extreme Altruism Prompt Anticipation of Norm Violations? Evolutionary Behavioral Sciences. doi: <a href="https://doi.org/10.1037/ebs0000400" target="_blank">10.1037/ebs0000400</a>
+1. Kawaguchi, S., & <u>Kawamura, Y.</u> (2026). How Emotional Appeals and Deliberative Thinking Relate to Perceived Effectiveness. Social and Personality Psychology Compass, 20(4), e70142. doi: <a href="https://doi.org/10.1111/spc3.70142" target="_blank">10.1111/spc3.70142</a>
 
-1. Cleone, M, & <u>Kawamura, Y.</u> (in press). Playing It Safe? Voters Decode Politicians' Not Answering as an Answer. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.70019" target="_blank">10.1111/jpr.70019</a>
+1. Naraoka, A., & <u>Kawamura, Y.</u> (2026). Does Extreme Altruism Prompt Anticipation of Norm Violations? Evolutionary Behavioral Sciences. doi: <a href="https://doi.org/10.1037/ebs0000400" target="_blank">10.1037/ebs0000400</a>
 
-1. <u>Kawamura, Y.</u>, & Barclay, P. (2025). Wealth or generosity? People choose partners based on whichever is more variable. Evolution and Human Behavior. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2025.106727" target="_blank">10.1016/j.evolhumbehav.2025.106727</a>
+1. Mitsui, C, & <u>Kawamura, Y.</u> (in press). Playing It Safe? Voters Decode Politicians' Not Answering as an Answer. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.70019" target="_blank">10.1111/jpr.70019</a>
+
+1. <u>Kawamura, Y.</u>, & Barclay, P. (2025). Wealth or generosity? People choose partners based on whichever is more variable. Evolution and Human Behavior, 46(5), 106727. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2025.106727" target="_blank">10.1016/j.evolhumbehav.2025.106727</a>
 
 1. Himichi, T., <u>Kawamura, Y.</u>, & Goto, T. (in press). Investigating the factor structure of the Japanese version of the Interpersonal Reactivity Index. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12567" target="_blank">10.1111/jpr.12567</a>
 
 1. Mitsuishi, K., & <u>Kawamura, Y.</u> (2025). Avoidance of altruistic punishment: Testing with a situation-selective third-party punishment game. Journal of Experimental Social Psychology, 116, 104695. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103124001082" target="_blank">10.1016/j.jesp.2024.104695</a> <a href="https://www.omu.ac.jp/info/research_news/entry-14750.html" target="_blank">日本語での紹介記事</a>
 
-1. Kawaguchi, S., & <u>Kawamura, Y.</u> (2024). Partner Choice does not Promote Altruism in a Joint Taking Game. Evolutionary Psychological Science, 1-7. doi: <a href="https://rdcu.be/dXE7B" target="_blank">10.1007/s40806-024-00414-2</a>
+1. Kawaguchi, S., & <u>Kawamura, Y.</u> (2024). Partner Choice does not Promote Altruism in a Joint Taking Game. Evolutionary Psychological Science, 10, 337-343. doi: <a href="https://rdcu.be/dXE7B" target="_blank">10.1007/s40806-024-00414-2</a>
 
 1. <u>Kawamura, Y.</u>, & Totake, K. (in press). Pluralistic Ignorance did not Prevent Paternity Leave in Japan in December 2021: A Replication Study. Japanese Psychological Research. doi: <a href="https://doi.org/10.1111/jpr.12507" target="_blank">10.1111/jpr.12507</a>
 
@@ -31,7 +33,7 @@ output: html_document
 
 1. Kawai, R., & <u>Kawamura, Y.</u> (2023). Parochial Empathy Occurs Regardless of Causal Attribution. Letters on Evolutionary Behavioral Science, 14(1), 13-17. doi: <a href="https://doi.org/10.5178/lebs.2023.102" target="_blank">10.5178/lebs.2023.102</a>
 
-1. <u>Kawamura, Y.</u>, Sasaki, S., & Kusumi, T. (2022). Cultural similarities and differences in lay theories of altruism: Replication of Carlson and Zaki (2018) in a Japanese sample. Asian Journal of Social Psychology, 25, 571-576. doi: <a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a>
+1. <u>Kawamura, Y.</u>, Sasaki, S., & Kusumi, T. (2022). Cultural similarities and differences in lay theories of altruism: Replication of Carlson and Zaki (2018) in a Japanese sample. Asian Journal of Social Psychology, 25(3), 571-576. doi: <a href="https://doi.org/10.1111/ajsp.12502" target="_blank">10.1111/ajsp.12502</a>
 
 1. 市村賢士郎・<u>河村悠太</u>・枡田恵・伊川美保・高橋雄介・楠見孝 (2022). 仕事に対する達成目標と仕事の意味づけとの関連. 心理学研究, 93(1), 51-57. doi: 
 <a href="https://doi.org/10.4992/jjpsy.93.20333" target="_blank">10.4992/jjpsy.93.20333</a>
@@ -40,7 +42,7 @@ output: html_document
 
 1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (2021). Effects of Cost and Benefit of Prosocial Behavior on Reputation. Social Psychological and Personality Science, 12(4), 452-460. doi: <a href="https://doi.org/10.1177/1948550620929163" target="_blank">10.1177/1948550620929163</a>
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2020). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology, 90, 104021. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a>
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2020). Altruism does not always lead to a good reputation: A normative explanation. Journal of Experimental Social Psychology, 90, 104021. doi: <a href="https://www.sciencedirect.com/science/article/pii/S0022103120303619" target="_blank">10.1016/j.jesp.2020.104021</a>
 
 1. Goto, T., Ichimura, K., Oka, R., <u>Kawamura, Y.</u>, & Kusumi, T. (2019). Trait-related Concepts Activate Stereotypically Consistent Concepts on the Same Stereotype Dimension, but may not Spread to the Other Stereotype Dimension. Japanese Psychological Research, 61(2), 83-93. doi: <a href="https://doi.org/10.1111/jpr.12247" target="_blank">10.1111/jpr.12247</a>
 
@@ -48,13 +50,13 @@ output: html_document
 
 1. 市村賢士郎・<u>河村悠太</u>・高橋雄介・楠見孝 (2018). ラーニングコモンズの環境要因と創造性課題の成績との関連. 日本教育工学会論文誌, 42(1), 55-64. doi: <a href="https://doi.org/10.15077/jjet.42015" target="_blank">10.15077/jjet.42015</a>
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2018). The relationship between rejection avoidance and altruism is moderated by social norms. Personality and Individual Differences, 129, 24-27. doi: <a href="https://doi.org/10.1016/j.paid.2018.02.038" target="_blank">10.1016/j.paid.2018.02.038</a>
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2018). The relationship between rejection avoidance and altruism is moderated by social norms. Personality and Individual Differences, 129, 24-27. doi: <a href="https://doi.org/10.1016/j.paid.2018.02.038" target="_blank">10.1016/j.paid.2018.02.038</a>
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2018). Relationships between two types of reputational concern and altruistic behavior in daily life. Personality and Individual Differences, 121, 19-24. doi: <a href="https://doi.org/10.1016/j.paid.2017.09.003" target="_blank">10.1016/j.paid.2017.09.003</a>
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2018). Relationships between two types of reputational concern and altruistic behavior in daily life. Personality and Individual Differences, 121, 19-24. doi: <a href="https://doi.org/10.1016/j.paid.2017.09.003" target="_blank">10.1016/j.paid.2017.09.003</a>
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2017). Selfishness is attributed to men who help young women: Signaling function of male altruism. Letters on Evolutionary Behavioral Science, 2, 45-48. doi: <a href="https://doi.org/10.5178/lebs.2017.64" target="_blank">10.5178/lebs.2017.64</a>
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2017). Selfishness is attributed to men who help young women: Signaling function of male altruism. Letters on Evolutionary Behavioral Science, 8, 45-48. doi: <a href="https://doi.org/10.5178/lebs.2017.64" target="_blank">10.5178/lebs.2017.64</a>
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2017). The norm-dependent effect of watching eyes on donation. Evolution and Human Behavior, 38, 659-666. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2017.05.003" target="_blank">10.1016/j.evolhumbehav.2017.05.003</a>
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2017). The norm-dependent effect of watching eyes on donation. Evolution and Human Behavior, 38, 659-666. doi: <a href="https://doi.org/10.1016/j.evolhumbehav.2017.05.003" target="_blank">10.1016/j.evolhumbehav.2017.05.003</a>
 
 1. 日道俊之・小山内秀和・後藤崇志・藤田弥世・<u>河村悠太</u>・Davis, Mark H.・野村理朗 (2017).  日本語版対人反応性指標の作成. 心理学研究, 88(1), 61-71. doi: <a href="https://doi.org/10.4992/jjpsy.88.15218" target="_blank">10.4992/jjpsy.88.15218</a>
 
@@ -68,9 +70,9 @@ output: html_document
 
 ### 学会 (国際)
 
-1. Mitsui, C., & <u>Kawamura, Y.</u> (2026, 7). Not taking a stance on political issues lowers trust in both Japan and the United States. The 49th Annual Meeting of International Society of Political Psychology, Newcastle, United Kingdom, July 16-29.
+1. Mitsui, C., & <u>Kawamura, Y.</u> (2026, 7). Not taking a stance on political issues lowers trust in both Japan and the United States. The 49th Annual Meeting of International Society of Political Psychology, Newcastle, United Kingdom, July 16-19.
 
-1. Mitsuishi, K., Maeda, Y., Mitsui, C., & <u>Kawamura, Y.</u> (2026, 6) Avoidance of altruistic punishment in cross-cultural contexts: A comparison of direct and indirect punishment. The International Conference on Social Dilemmas 2026. Shimonoseki, Japan.
+1. Mitsuishi, K., Maeda, Y., Mitsui, C., & <u>Kawamura, Y.</u> (2026, 6) Avoidance of altruistic punishment in cross-cultural contexts: A comparison of direct and indirect punishment. The International Conference on Social Dilemmas 2026. Shimonoseki, Japan, June 1-5.
 
 1. Mitsui, C., & <u>Kawamura, Y.</u> (2026, 2). Echoes in the Chat: Conformity in AI-Simulated Political Majorities. The 26th Annual Convention of Society for Personality and Social Psychology, Chicago, Il, United States, February 26-28.
 
@@ -86,17 +88,17 @@ output: html_document
 
 1. <u>Kawamura, Y.</u>, Ohtsubo, Y., & Kusumi, T. (2019, 10). Effects of Cost and Benefit of Altruism on Reputation. The annual Darwin Day meeting, St. Catharines, ON, Canada, October 15. 
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients' Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2016, 8). Effort to Buy a Gift Affects Estimates of Recipients' Appreciation. The 23rd Congress of the International Association for Cross-Cultural Psychology, Nagoya, Japan, July 30- August 3.
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2016, 7). Age differences in the relationship between the Big-Five personality traits and altruistic behavior. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.
 
 1. Himichi, T., Osanai, H., Goto, T., Fujita, H., <u>Kawamura, Y.</u>, & Nomura, M. (2016, 7). Relationships between mindfulness and empathy. The 31st International Congress of Psychology, Yokohama, Japan, July 24-29.
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2016, 1). The effect of reputational concerns on altruistic behavior. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30. (granted SPSP Student Travel Award)
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2016, 1). The effect of reputational concerns on altruistic behavior. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30. (granted SPSP Student Travel Award)
 
 1. Himichi, T., Fujita, H., Masuda, M., <u>Kawamura, Y.</u>, Hiraoka, D., & Nomura, M. (2016, 1). Domain specific effects of negative emotions on lateral prefrontal cortex activity during inference of others’ mind. The 17th Annual Meeting of Society for Personality and Social Psychology, San Diego, California, USA, January 28-30.
 
-1. <u>Kawamura, Y.</u>, Kusumi, T. (2015, 2). Gender differences in the evaluation of men's altruistic behavior. The 14th Justice and Morality Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.
+1. <u>Kawamura, Y.</u>, & Kusumi, T. (2015, 2). Gender differences in the evaluation of men's altruistic behavior. The 14th Justice and Morality Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.
 
 1. Uchida, Y., Takemura, K., Fukushima, S., Saizen, I., Koizumi, N., <u>Kawamura, Y.</u>, & Yoshikawa, S. (2015, 2). Farming, but not fishing, cultivates shared culture within a community. The 10th Cultural Psychology Preconference (at the 16th Annual Meeting of Society for Personality and Social Psychology), Long Beach, California, USA, February 26.
 <br/><br/>
@@ -138,7 +140,7 @@ output: html_document
 
 1. 川口周一郎・<u>河村悠太</u> (2023). 共同収奪ゲームにおける競争的利他主義の検討 日本社会心理学会第64回大会, 東京, 2023年9月7日-9月8日. (ポスター発表)
 
-1. 日道俊之・<u>河村悠太</u>・後藤崇志 (2022). 日本語版対人反応性指標の因子構造に関する探索的検討 日本心理学会第86回大会, 東京, 2022年9月8日-12月11日. (ポスター発表)
+1. 日道俊之・<u>河村悠太</u>・後藤崇志 (2022). 日本語版対人反応性指標の因子構造に関する探索的検討 日本心理学会第86回大会, 東京, 2022年9月8日-9月11日. (ポスター発表)
 
 1. <u>河村悠太</u> (2022). 利他的動機に基づく購買行動の評判. 日本NPO学会第24回研究大会企画委員会企画「寄付・ボランティア研究の最前線」, web開催, 2022年6月11日-6月12日. (口頭発表)
 
@@ -214,7 +216,7 @@ output: html_document
 
 1. 河村悠太. (2022). 利他行動の促進・抑制過程ー評判への関心に基づく検討ー. ナカニシヤ出版. <a href="http://www.nakanishiya.co.jp/book/b597556.html" target="_blank">[link]</a>
 
-1. 河村悠太 (訳). 後藤崇志・日道俊之・小宮あすか・楠見　孝 (監訳). 未来思考の心理学 予測・計画・達成する心のメカニズム. 北大路書房 (Oettingen, G., Sevincer, A. T., & Gollwitzer, P. (Eds.). (2018). The psychology of thinking about the future. The Guilford Press.). <a href="https://www.kitaohji.com/book/b589873.html" target="_blank">[link]</a>
+1. 河村悠太 (訳). (2021). 後藤崇志・日道俊之・小宮あすか・楠見　孝 (監訳). 未来思考の心理学 予測・計画・達成する心のメカニズム (第7, 11, 12章). 北大路書房 (Oettingen, G., Sevincer, A. T., & Gollwitzer, P. (Eds.). (2018). The psychology of thinking about the future. The Guilford Press.). <a href="https://www.kitaohji.com/book/b589873.html" target="_blank">[link]</a>
 <br/><br/>
 
 ### その他
